@@ -16,10 +16,15 @@
     color:rgb(134, 134, 134)!important;
 }
 .form-button-color{
-    background-image: linear-gradient(to right, green, yellowgreen)!important;
-    border: 1px solid rgb(247, 189, 0)!important;
-    color: white!important;
-    font-weight: 400!important;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    width: 150px;
+}
+.form-button-color:hover{
+    color: white;
+    background-color: rgb(66, 66, 66);
 }
 .Options{
     color:rgb(134, 134, 134);
