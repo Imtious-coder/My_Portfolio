@@ -1,0 +1,26 @@
+.box-name{
+    color: rgba(233, 233, 233, 0.897);
+}
+.Inputs{
+    background-color: #303133;
+    border: none;
+    border-radius: none;
+    border: 1px solid rgb(212, 212, 212);
+    color: white;
+}
+.form-inputs-style{
+    background-color: #3C3C3C;
+    border-bottom: 1px solid white;
+}
+.form-select{
+    color:rgb(134, 134, 134)!important;
+}
+.form-button-color{
+    background-image: linear-gradient(to right, green, yellowgreen)!important;
+    border: 1px solid rgb(247, 189, 0)!important;
+    color: white!important;
+    font-weight: 400!important;
+}
+.Options{
+    color:rgb(134, 134, 134);
+}
