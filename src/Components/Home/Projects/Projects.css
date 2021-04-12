@@ -1,0 +1,23 @@
+.ImageBG{
+    height: 200px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+}
+.ImageBG:hover{
+    background-color: #303133;
+    border: none;
+}
+.Details:hover{
+    background-color: rgba(34, 34, 34, 0.377);
+    padding: 10px;
+    border-radius: 5px;
+    border-top: 1px solid greenyellow;
+}
+.SeeMoreButton{
+    color: white;
+    text-align: center;
+    padding: 7px;
+    background-color: #303133;
+    border: 1px solid white;
+    width: 150px;
+}
