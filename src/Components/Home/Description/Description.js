@@ -13,7 +13,7 @@ const Description = () => {
                     <small className="text-secondary">I'm a front-end developer based in Feni, Bangladesh specializing
                     in building (and occasionally designing) exceptional websites
                     with latest technologies.</small>
-                    <div className="Button mt-3 hvr-buzz">Resume</div>
+                    <a href="https://drive.google.com/file/d/1oUTX__ZTgAco_iXKO-bWLnp5BSuAtCzA/view?usp=sharing"><div className="Button mt-3 hvr-buzz">Resume</div></a>
                 </div>
             </div>
         </section>
