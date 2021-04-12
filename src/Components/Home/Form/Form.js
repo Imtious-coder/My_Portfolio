@@ -5,13 +5,13 @@ const Form = () => {
     return (
         <section>
             <div className="container">
-            <div className="row mt-5 pt-5">
-                <div className="col-md-4 me-3"></div>
-                <div className="col-md-4 ms-5 mt-5 text-white">
-                    <h4>—— Sweet mail ——</h4>
+                <div className="row mt-5 pt-5">
+                    <div className="col-md-4"></div>
+                    <div className="col-md-4 mt-5 text-white d-flex justify-content-center">
+                        <h4>—— Sweet mail ——</h4>
+                    </div>
+                    <div className="col-md-4"></div>
                 </div>
-                <div className="col-md-4"></div>
-            </div>
             </div>
             <div id="contact-us">
                 <section className=" container mt-5 pb-5">

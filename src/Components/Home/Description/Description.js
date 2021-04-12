@@ -4,7 +4,7 @@ import '../../../../node_modules/hover.css/css/hover-min.css';
 
 const Description = () => {
     return (
-        <section className="container mt-5 pb-5">
+        <section className="container pt-5 pb-5">
             <div className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-6">
