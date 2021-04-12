@@ -1,0 +1,21 @@
+#Social{
+    font-size: 22px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1.5px solid yellowgreen;
+  }
+  #Social-Icon1{
+    font-size: 32px;
+    color: white;
+    margin: 10px;
+  }
+  #Social-Icon2{
+    font-size: 32px;
+    color: rgb(245, 245, 255);
+    margin: 10px;
+  }
+  #Social-Icon3{
+    font-size: 32px;
+    color: white;
+    margin: 10px;
+  }
