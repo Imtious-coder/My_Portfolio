@@ -11,7 +11,6 @@
     background-color: rgba(34, 34, 34, 0.377);
     padding: 10px;
     border-radius: 5px;
-    border-top: 1px solid greenyellow;
 }
 .SeeMoreButton{
     color: white;
@@ -20,4 +19,15 @@
     background-color: #303133;
     border: 1px solid white;
     width: 150px;
+}
+.SeeMoreButton:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: all 1s ease;
+}
+.H1{
+    color: rgba(255, 255, 255, 0.699);
+}
+.H6{
+    color: rgb(155, 155, 155);
 }

@@ -6,16 +6,27 @@
   }
   #Social-Icon1{
     font-size: 32px;
-    color: white;
+    color: rgba(255, 255, 255, 0.336);
     margin: 10px;
+  }
+  #Social-Icon1:hover{
+    color: #2c54d4;
+    border-radius: 20px;
+    background-color: white;
   }
   #Social-Icon2{
     font-size: 32px;
-    color: rgb(245, 245, 255);
+    color: rgba(255, 255, 255, 0.425);
     margin: 10px;
+  }
+  #Social-Icon2:hover{
+    color: white;
   }
   #Social-Icon3{
     font-size: 32px;
-    color: white;
+    color: rgba(255, 255, 255, 0.363);
     margin: 10px;
+  }
+  #Social-Icon3:hover{
+    color: #0077B5;
   }

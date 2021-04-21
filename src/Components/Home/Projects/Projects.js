@@ -33,9 +33,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-hang Details">
-                    <h1 className="text-primary">A_Music</h1>
-                    <h6 className="text-success">HTML5, CSS3, JavaScript, Bootstrap5</h6>
+                <div className="col-md-4 hvr-bob Details">
+                    <h1 className="H1">A_Music</h1>
+                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
                     <small className="text-secondary">This is a lyric finding website. Made in Vanila JS. You can find any update music lyriq here.
                     Just put the name and hit the search button and you will get more then 7+ lyriq folder.
                     </small> <br />
@@ -45,9 +45,9 @@ const Projects = () => {
             {/* Project 2 Doctors Portal */}
             <div className="row mt-5 pb-5 pt-5">
                 <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-hang Details">
-                    <h1 className="text-primary">A_Doctors</h1>
-                    <h6 className="text-success">HTML5, CSS3, JavaScript, Bootstrap5, React, Express, Node.js, MaterialUI</h6>
+                <div className="col-md-4 hvr-bob Details">
+                    <h1 className="H1">A_Doctors</h1>
+                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5, React, Express, Node.js, MaterialUI</h6>
                     <small className="text-secondary">This is a lyric finding website. Made by following MERN system. You can get an apointmen from the doctors.
                     This is my own project developed for practicing.
                     </small> <br />
@@ -90,9 +90,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-hang Details">
-                    <h1 className="text-primary">Temperature Finder</h1>
-                    <h6 className="text-success">HTML5, CSS3, JavaScript, Bootstrap5</h6>
+                <div className="col-md-4 hvr-bob Details">
+                    <h1 className="H1">Temperature Finder</h1>
+                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
                     <small className="text-secondary">This is a temperature finding website. Made in Vanila JS. You can find any countries update temperature here.
                     </small> <br />
                     <a className="text-secondary" href="https://imtious-coder.github.io/Temperature-Finder/?">Site</a>

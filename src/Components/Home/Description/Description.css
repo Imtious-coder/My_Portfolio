@@ -2,6 +2,13 @@
     color: white;
     text-align: center;
     padding: 5px;
+    background-color: #303133;
     border: 1px solid white;
     width: 150px;
+    text-decoration: none;
+}
+.Button:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: all 1s ease;
 }
