@@ -9,11 +9,12 @@ import T1 from '../../../Images/T1.png';
 import T2 from '../../../Images/T2.png';
 import T3 from '../../../Images/T3.png';
 import './Projects.css';
+import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
     return (
-        <section className="container mt-5 pb-5 mt-5 pt-5">
+        <section className="container pb-5 pt-5">
             <h4 className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
             <div className="row pb-5">
                 <div className="col-md-1"></div>
@@ -38,8 +39,10 @@ const Projects = () => {
                     <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
                     <small className="text-secondary">This is a lyric finding website. Made in Vanila JS. You can find any update music lyriq here.
                     Just put the name and hit the search button and you will get more then 7+ lyriq folder.
-                    </small> <br />
-                    <a className="text-secondary" href="https://imtious-coder.github.io/A_Music/">Site</a>
+                    </small> <br /> <br />
+                    <div>
+                        <a className="text-secondary Preview" href="https://imtious-coder.github.io/A_Music/">Preview</a>
+                    </div>
                 </div>
             </div>
             {/* Project 2 Doctors Portal */}
@@ -51,7 +54,9 @@ const Projects = () => {
                     <small className="text-secondary">This is a lyric finding website. Made by following MERN system. You can get an apointmen from the doctors.
                     This is my own project developed for practicing.
                     </small> <br />
-                    <a className="text-secondary" href="https://keen-sinoussi-d5c500.netlify.app/">Site</a>
+                    <div className="mt-3">
+                        <a className="text-secondary Preview" href="https://keen-sinoussi-d5c500.netlify.app/">Preview</a>
+                    </div>
                 </div>
 
                 <div className="col-md-1"></div>
@@ -95,14 +100,16 @@ const Projects = () => {
                     <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
                     <small className="text-secondary">This is a temperature finding website. Made in Vanila JS. You can find any countries update temperature here.
                     </small> <br />
-                    <a className="text-secondary" href="https://imtious-coder.github.io/Temperature-Finder/?">Site</a>
+                    <div className="mt-4">
+                        <a className="text-secondary Preview" href="https://imtious-coder.github.io/Temperature-Finder/?">Preview</a>
+                    </div>
                 </div>
             </div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-10 border-bottom-info"></div>
                     <div className="col-md-2">
-                        <button className="SeeMoreButton">See more</button>
+                        <Link to="/allprojects"><button className="SeeMoreButton">See more</button></Link>
                     </div>
                 </div>
             </div>
