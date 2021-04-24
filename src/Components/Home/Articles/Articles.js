@@ -17,9 +17,9 @@ const Articles = () => {
                 </div>
             </section>
 
-            <section className="container pb-5">
+            <section className="container">
                 <div className="row">
-                    <div className="col-md-4 hvr-wobble-vertical">
+                    <div className="col-md-4 col-sm-12 pb-5 hvr-wobble-vertical d-flex justify-content-center">
                         <div class="card Articles">
                             <img src={coffee} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -30,7 +30,7 @@ const Articles = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 hvr-wobble-vertical">
+                    <div className="col-md-4 pb-5 hvr-wobble-vertical d-flex justify-content-center">
                         <div class="card Articles">
                             <img src={E} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -41,7 +41,7 @@ const Articles = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4 d-flex justify-content-center">
                         <div class="card Articles hvr-wobble-vertical">
                             <img src={Mask} class="card-img-top " alt="..." />
                             <div class="card-body">

@@ -18,7 +18,7 @@ const Projects = () => {
             <h4 className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
             <div className="row pb-5">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 hvr-shadow-radial hvr-grow ImageBG">
+                <div className="col-md-5 col-sm-12 hvr-shadow-radial hvr-grow ImageBG">
                     <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2000">
@@ -34,7 +34,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-bob Details">
+                <div className="col-md-4 col-sm-12 pt-5 hvr-bob Details">
                     <h1 className="H1">A_Music</h1>
                     <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
                     <small className="text-secondary">This is a lyric finding website. Made in Vanila JS. You can find any update music lyriq here.
@@ -59,7 +59,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="col-md-1"></div>
+                <div className="col-md-1 pb-5 pt-3"></div>
                 <div className="col-md-5 hvr-shadow-radial hvr-grow ImageBG">
                     <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
@@ -79,7 +79,7 @@ const Projects = () => {
 
             <div className="row mt-5 pt-5 pb-5">
                 <div className="col-md-1"></div>
-                <div className="col-md-5 hvr-shadow-radial hvr-grow ImageBG">
+                <div className="col-md-5 hvr-shadow-radial mb-5 hvr-grow ImageBG">
                     <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="2000">
