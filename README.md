@@ -2,10 +2,11 @@
 
 ### Preview(https://portfolio-c926a.web.app/)
 
-## * This project describe my skills.
-## * You can get my Resume
-## * My projects are added
-## * Contact information added.
+## Description
+* This project describes my skills.
+* You can get my Resume
+* All projects are added
+* Contact information added.
 
 #### This project is created using
 * JavaScript(ES6)
