@@ -15,11 +15,11 @@ const Form = () => {
             </div>
             <div id="contact-us">
                 <section className=" container mt-5 pb-5">
-                    <form className="row g-3 needs-validation" novalidate>
+                    <form action="https://formspree.io/f/mgeroyav" method="POST" className="row g-3 needs-validation" novalidate>
                         <div className="col-md-4 position-relative">
                             <label for="validationTooltip01" className="form-label box-name">First name</label>
                             <input
-                                type="text" className="form-control Inputs" id="validationTooltip01" placeholder="Arafat" required />
+                                type="text" name="FirstName" className="form-control Inputs" id="validationTooltip01" placeholder="Arafat" required />
                             <div className="valid-tooltip">
                                 Looks good!
                         </div>
@@ -27,7 +27,7 @@ const Form = () => {
                         <div className="col-md-4 position-relative">
                             <label for="validationTooltip02" className="form-label box-name">Last name</label>
                             <input
-                                type="text" className="form-control Inputs" id="validationTooltip02" placeholder="Islam" required />
+                                type="text" name="LastName" className="form-control Inputs" id="validationTooltip02" placeholder="Islam" required />
                             <div className="valid-tooltip">
                                 Looks good!
                         </div>
@@ -37,7 +37,7 @@ const Form = () => {
                             <div className="input-group has-validation">
                                 <span className="input-group-text Inputs" id="validationTooltipUsernamePrepend">@</span>
                                 <input
-                                    type="text" className="form-control Inputs" placeholder="example@gmail.com" id="validationTooltipUsername"
+                                    type="text" name="Username" className="form-control Inputs" placeholder="example@gmail.com" id="validationTooltipUsername"
                                     aria-describedby="validationTooltipUsernamePrepend" required />
                                 <div className="invalid-tooltip">
                                     Please choose a unique and valid username.
@@ -47,7 +47,7 @@ const Form = () => {
                         <div className="col-md-6 position-relative">
                             <label for="validationTooltip03" className="form-label box-name">City</label>
                             <input
-                                type="text" className="form-control Inputs" id="validationTooltip03" placeholder="Kumilla" required />
+                                type="text" name="City" className="form-control Inputs" id="validationTooltip03" placeholder="Kumilla" required />
                             <div className="invalid-tooltip">
                                 Please provide a valid city.
                         </div>
@@ -68,7 +68,7 @@ const Form = () => {
                         <div className="col-md-3 position-relative">
                             <label for="validationTooltip05" className="form-label box-name">Zip</label>
                             <input
-                                type="text" className="form-control Inputs" placeholder="3500" id="validationTooltip05" required />
+                                type="text" name="Zip" className="form-control Inputs" placeholder="3500" id="validationTooltip05" required />
                             <div className="invalid-tooltip">
                                 Please provide a valid zip.
                         </div>

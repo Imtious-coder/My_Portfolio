@@ -18,7 +18,7 @@ const Navbar = () => {
                             </li>
                         </Link>
                         <li class="nav-item me-5">
-                            <a class="nav-link text-white mt-2 hvr-bob Nav" href="#">About</a>
+                            <a class="nav-link text-white mt-2 hvr-bob Nav" href="#">Resume</a>
                         </li>
                         <Link to="/allprojects">
                             <li class="nav-item me-5">
@@ -26,7 +26,7 @@ const Navbar = () => {
                             </li>
                         </Link>
                         <li class="nav-item me-5">
-                            <a class="nav-link text-white hvr-glow Name" href="#">"AS"</a>
+                            <a class="nav-link text-white Name" href="#">"AS"</a>
                         </li>
                         <Link to="/brain">
                             <li class="nav-item me-5">
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </li>
                         <Link to="/mail">
                         <li class="nav-item me-5">
-                            <a class="nav-link text-white hvr-bob mt-2 Nav" href="#">Contact</a>
+                            <a class="nav-link text-white hvr-bob mt-2 Nav" href="#">About</a>
                         </li>
                         </Link>
                     </ul>
