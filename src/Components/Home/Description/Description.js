@@ -1,6 +1,9 @@
 import React from 'react';
 import './Description.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
+import Resume from '../../../Resume/RESUME.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Description = () => {
     return (
@@ -8,12 +11,16 @@ const Description = () => {
             <div className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-6">
+                    {/* Name */}
                     <h1 className="text-white mt-5 mb-1">Imtious Islam Midul</h1>
-                    <h5 className="text-white mb-3">JavaScript Developer (React)</h5>
+                    {/* Title */}
+                    <h5 className="text-white mb-3">Front-End Developer</h5>
+                    {/* Description */}
                     <small className="text-secondary">I'm a front-end developer based in Feni, Bangladesh specializing
                     in building (and occasionally designing) exceptional websites
-                    with latest technologies.</small>
-                    <a className="" href="https://drive.google.com/file/d/18C1ttniHhvdfl7wmbVajLLhwDYFZZSrC/view?usp=sharing"><button className="Button mt-3">Resume</button></a>
+                         with latest technologies.</small> <br />
+                    {/* Resume Download Button */}
+                    <a href={Resume} target="_blank" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
             </div>
         </section>

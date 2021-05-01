@@ -12,3 +12,6 @@
     background-color: rgb(255, 255, 255);
     transition: all 1s ease;
 }
+.Button-Icon{
+    font-size: 12px;
+}
