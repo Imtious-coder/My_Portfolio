@@ -1,16 +1,10 @@
-.ImageBG{
-    height: 200px;
-    border: 1px solid rgb(179, 179, 179);
-    border-radius: 5px;
+.Images{
+    height: 230px;
+    transition: all .5s ease-in-out;
 }
-.ImageBG:hover{
-    background-color: #303133;
-    border: none;
-}
-.Details:hover{
-    background-color: rgba(34, 34, 34, 0.377);
+.Images:hover{
     padding: 10px;
-    border-radius: 5px;
+    background: linear-gradient(to right, red, purple);
 }
 .SeeMoreButton{
     color: white;
@@ -25,27 +19,32 @@
     background-color: whitesmoke;
     transition: all 1s ease;
 }
-.H1{
-    color: rgba(255, 255, 255, 0.699);
-}
-.H6{
-    color: rgb(155, 155, 155);
-}
-.Preview{
-    text-decoration: none;
-    color: rgb(155, 155, 155);
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 12px;
+.Details{
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: #303133;
     border: 1px solid white;
-    transition: all .3s ease-in ;
 }
-.Preview:hover{
+.Details:hover{
     color: black;
-    padding: 5px;
-    font-weight: bold;
-    background-color: white;
-
+    background-color: whitesmoke;
+    transition: all 1s ease;
+}
+#Project1_Details1{
+    display: none;
+}
+#Project1_Details2{
+    display: none;
+}
+#Project1_Details3{
+    display: none;
+}
+#Project1_Details4{
+    display: none;
 }

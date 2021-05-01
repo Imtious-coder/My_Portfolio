@@ -7,7 +7,7 @@ import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Description = () => {
     return (
-        <section className="container pt-5 pb-5">
+        <section className="container pt-5">
             <div className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-6">

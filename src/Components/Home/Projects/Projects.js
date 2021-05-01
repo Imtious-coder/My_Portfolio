@@ -1,10 +1,19 @@
 import React from 'react';
-import AM1 from '../../../Images/A_Music.png';
-import AM2 from '../../../Images/A_Music_Search.png';
-import AM3 from '../../../Images/A_Music_Lyric.png';
 import Doctor1 from '../../../Images/Doctors1.png';
 import Doctor2 from '../../../Images/Doctors2.png';
 import Doctor3 from '../../../Images/Doctors3.png';
+import School1 from '../../../Images/School1.png';
+import School2 from '../../../Images/School2.png';
+import School3 from '../../../Images/School3.png';
+import Ashop1 from '../../../Images/Ashop1.png';
+import Ashop2 from '../../../Images/Ashop2.png';
+import Ashop3 from '../../../Images/Ashop3.png';
+import StoreX1 from '../../../Images/StoreX1.png';
+import StoreX2 from '../../../Images/StoreX2.png';
+import StoreX3 from '../../../Images/StoreX3.png';
+import AM1 from '../../../Images/A_Music.png';
+import AM2 from '../../../Images/A_Music_Search.png';
+import AM3 from '../../../Images/A_Music_Lyric.png';
 import T1 from '../../../Images/T1.png';
 import T2 from '../../../Images/T2.png';
 import T3 from '../../../Images/T3.png';
@@ -13,98 +22,210 @@ import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
+    const handleProject1 = () => {
+        const Project_1 = document.getElementById("Project1");
+        Project_1.addEventListener("click", () => {
+            document.getElementById("Project1").style.display = "none";
+            document.getElementById("Project1_Details1").style.display = "block";
+        })
+    }
+    const handleProject2 = () => {
+        const Project_2 = document.getElementById("Project2");
+        Project_2.addEventListener("click", () => {
+            document.getElementById("Project2").style.display = "none";
+            document.getElementById("Project1_Details2").style.display = "block";
+        })
+    }
+    const handleProject3 = () => {
+        const Project_3 = document.getElementById("Project3");
+        Project_3.addEventListener("click", () => {
+            document.getElementById("Project3").style.display = "none";
+            document.getElementById("Project1_Details3").style.display = "block";
+        })
+    }
+    const handleProject4 = () => {
+        const Project_4 = document.getElementById("Project4");
+        Project_4.addEventListener("click", () => {
+            document.getElementById("Project4").style.display = "none";
+            document.getElementById("Project1_Details4").style.display = "block";
+        })
+    }
     return (
         <section className="container pb-5 pt-5">
             <h4 className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
-            <div className="row pb-5">
-                <div className="col-md-1"></div>
-                <div className="col-md-5 col-sm-12 hvr-shadow-radial hvr-grow ImageBG">
-                    <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src={AM1} class="d-block w-100" alt="..." />
+
+            <div className="row mb-5 pb-5">
+                {/* A_Doctors Card */}
+                <div id="Project1" className="col-md-6 hvr-grow">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src={Doctor1} class="d-block w-100 Images" alt="..." />
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={AM2} class="d-block w-100" alt="..." />
+                            <div class="carousel-item">
+                                <img src={Doctor2} class="d-block w-100 Images" alt="..." />
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={AM3} class="d-block w-100" alt="..." />
+                            <div class="carousel-item">
+                                <img src={Doctor3} class="d-block w-100 Images" alt="..." />
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-4 col-sm-12 pt-5 hvr-bob Details">
-                    <h1 className="H1">A_Music</h1>
-                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
-                    <small className="text-secondary">This is a lyric finding website. Made in Vanila JS. You can find any update music lyriq here.
-                    Just put the name and hit the search button and you will get more then 7+ lyriq folder.
-                    </small> <br /> <br />
-                    <div>
-                        <a className="text-secondary Preview" href="https://imtious-coder.github.io/A_Music/">Preview</a>
-                    </div>
-                </div>
-            </div>
-            {/* Project 2 Doctors Portal */}
-            <div className="row mt-5 pb-5 pt-5">
-                <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-bob Details">
-                    <h1 className="H1">A_Doctors</h1>
-                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5, React, Express, Node.js, MaterialUI</h6>
-                    <small className="text-secondary">This is a lyric finding website. Made by following MERN system. You can get an apointmen from the doctors.
-                    This is my own project developed for practicing.
-                    </small> <br />
-                    <div className="mt-3">
-                        <a className="text-secondary Preview" href="https://keen-sinoussi-d5c500.netlify.app/">Preview</a>
-                    </div>
+                    {/* Details Button */}
+                    <button onMouseEnter={handleProject1} className="Details">Details</button>
                 </div>
 
-                <div className="col-md-1 pb-5 pt-3"></div>
-                <div className="col-md-5 hvr-shadow-radial hvr-grow ImageBG">
-                    <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src={Doctor1} class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={Doctor2} class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={Doctor3} class="d-block w-100" alt="..." />
-                            </div>
-                        </div>
+                <div id="Project1_Details1" className="col-md-6 justify-content-center ms-auto text-white">
+                    <div className="mb-5 ms-5">
+                        <h1>A_Doctors</h1>
+                        <p>Full Stack Project</p>
+                        <ul className="text-secondary">
+                            <li>Dentist Appointment taking website.</li>
+                            <li>Choose the service you want.</li>
+                            <li>Pick any flexible date for appointment.</li>
+                        </ul>
+                        <p className="text-secondary"> <b>Tech and Tools: </b>JavaScript, React, HTML5, CSS3, Bootstrap, <br /> React Router, Fontawesome, Netlify, Git, Github</p>
                     </div>
                 </div>
+                {/* A_Doctors Card */}
+
+                {/* MySchool Card */}
+                <div id="Project2" className="col-md-6 hvr-grow">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src={School1} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={School2} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={School3} class="d-block w-100 Images" alt="..." />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <button onMouseEnter={handleProject2} className="Details">Details</button>
+                </div>
+                <div id="Project1_Details2" className="col-md-6 justify-content-center ms-auto text-white">
+                    <div className="ms-5 mb-5">
+                        <h1>My_School</h1>
+                        <p>Full Stack Project</p>
+                        <ul className="text-secondary">
+                            <li>A School Management System.</li>
+                            <li>Teachers information..</li>
+                            <li>All notice.</li>
+                            <li>Students informations.</li>
+                            <li>Admin/Teachers can add or remove a notice.</li>
+                            <li>Admin/Teachers are able to update results.</li>
+                            <li>Students can update theis informations.</li>
+                        </ul>
+                        <p className="text-secondary"> <b>Tech and Tools: </b>JavaScript, React, Node, Express, HTML5, CSS3, Bootstrap, <br /> MaterialUI, React Router, Fontawesome, Git, Github</p>
+                    </div>
+                </div>
+                {/* MySchool Card */}
+
+                {/* AshopBD Card */}
+                <div id="Project3" className="col-md-6 hvr-grow mt-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src={Ashop1} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={Ashop2} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={Ashop3} class="d-block w-100 Images" alt="..." />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <button onMouseEnter={handleProject3} className="Details">Details</button>
+                </div>
+                <div  id="Project1_Details3" className="col-md-6 justify-content-center ms-auto text-white">
+                    <div className="mb-5 ms-5">
+                        <h1> AshopBD</h1>
+                        <p>Full Stack Website</p>
+                        <ul className="text-secondary">
+                            <li>Awesome E-commerce website.</li>
+                            <li>Select product, add to cart, remove from cart options</li>
+                            <li>Google Authentication and Privet Routes.</li>
+                        </ul>
+                        <p className="text-secondary"> <b>Tech and Tools: </b> JavaScript, ES6, React, Material UI, NodeJS, <br/> ExpressJS, HTML5, CSS3, Bootstrap5, Firebase Authentication, React Router, Git, Github
+                        </p>
+                    </div>
+                </div>
+                {/* A_shopBD Card */}
+
+                {/* StoreX Card */}
+                <div id="Project4" className="col-md-6 hvr-grow mt-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src={StoreX2} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={StoreX2} class="d-block w-100 Images" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src={StoreX3} class="d-block w-100 Images" alt="..." />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <button onMouseEnter={handleProject4} className="Details">Details</button>
+                </div>
+                <div  id="Project1_Details4" className="col-md-6 justify-content-center ms-auto text-white">
+                    <div className="mb-5 ms-5">
+                        <h1> Store_X</h1>
+                        <p>PSD to HTML</p>
+                        <ul className="text-secondary">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap</li>
+                            <li>Font Awesome</li>
+                        </ul>
+                    </div>
+                </div>
+                {/* StoreX Card */}
+
             </div>
 
-            <div className="row mt-5 pt-5 pb-5">
-                <div className="col-md-1"></div>
-                <div className="col-md-5 hvr-shadow-radial mb-5 hvr-grow ImageBG">
-                    <div style={{ width: '100%', height: '100%', paddingTop: '10px', paddingBottom: '10px' }} id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div style={{ width: '100%', height: '100%', borderRadius: '5px' }} class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src={T1} class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={T2} class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={T3} class="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-4 hvr-bob Details">
-                    <h1 className="H1">Temperature Finder</h1>
-                    <h6 className="H6">HTML5, CSS3, JavaScript, Bootstrap5</h6>
-                    <small className="text-secondary">This is a temperature finding website. Made in Vanila JS. You can find any countries update temperature here.
-                    </small> <br />
-                    <div className="mt-4">
-                        <a className="text-secondary Preview" href="https://imtious-coder.github.io/Temperature-Finder/?">Preview</a>
-                    </div>
-                </div>
-            </div>
+            {/* See more button.. */}
             <div className="container">
                 <div className="row">
                     <div className="col-md-10 border-bottom-info"></div>
