@@ -1,5 +1,6 @@
 .Images{
     height: 230px;
+    width: 100%;
     transition: all .5s ease-in-out;
 }
 .Images:hover{
@@ -27,7 +28,6 @@
     float: right;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 10px;
     background-color: #303133;
     border: 1px solid white;
 }

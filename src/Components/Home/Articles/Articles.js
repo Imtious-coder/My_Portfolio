@@ -1,9 +1,9 @@
 import React from 'react';
-import coffee from '../../../Images/coffee.jfif';
+import coffee from './coffee.jfif';
 import './Articles.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
-import E from '../../../Images/earth vs mars.jfif';
-import Mask from '../../../Images/aMask.jfif';
+import E from './earth vs mars.jfif';
+import Mask from './aMask.jfif';
 
 const Articles = () => {
     return (

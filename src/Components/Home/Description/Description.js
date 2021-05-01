@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Description.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
 import Resume from '../../../Resume/RESUME.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Description = () => {
+    useEffect (() => {
+        AOS.init({duration: 1000})
+    }, [])
     return (
         <section className="container pt-5">
-            <div className="row">
+            <div data-aos="fade-up" className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-6">
                     {/* Name */}
@@ -20,7 +25,7 @@ const Description = () => {
                     in building (and occasionally designing) exceptional websites
                          with latest technologies.</small> <br />
                     {/* Resume Download Button */}
-                    <a href={Resume} target="_blank" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
+                    <a href={Resume} target="_blank" className="hvr-grow" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
             </div>
         </section>

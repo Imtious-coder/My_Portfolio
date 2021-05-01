@@ -1,27 +1,25 @@
-import React from 'react';
-import Doctor1 from '../../../Images/Doctors1.png';
-import Doctor2 from '../../../Images/Doctors2.png';
-import Doctor3 from '../../../Images/Doctors3.png';
-import School1 from '../../../Images/School1.png';
-import School2 from '../../../Images/School2.png';
-import School3 from '../../../Images/School3.png';
-import Ashop1 from '../../../Images/Ashop1.png';
-import Ashop2 from '../../../Images/Ashop2.png';
-import Ashop3 from '../../../Images/Ashop3.png';
-import StoreX1 from '../../../Images/StoreX1.png';
-import StoreX2 from '../../../Images/StoreX2.png';
-import StoreX3 from '../../../Images/StoreX3.png';
-import AM1 from '../../../Images/A_Music.png';
-import AM2 from '../../../Images/A_Music_Search.png';
-import AM3 from '../../../Images/A_Music_Lyric.png';
-import T1 from '../../../Images/T1.png';
-import T2 from '../../../Images/T2.png';
-import T3 from '../../../Images/T3.png';
+import React, { useEffect } from 'react';
+import Doctor1 from './Doctors1.png';
+import Doctor2 from './Doctors2.png';
+import Doctor3 from './Doctors3.png';
+import School1 from './School1.jpg';
+import School2 from './School2.png';
+import School3 from './School3.png';
+import Ashop1 from './Ashop1.png';
+import Ashop2 from './Ashop2.png';
+import Ashop3 from './Ashop3.png';
+import StoreX1 from './StoreX1.jpg';
+import StoreX2 from './StoreX2.png';
+import StoreX3 from './StoreX3.png';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+    useEffect (() => {
+        AOS.init({duration: 1000})
+    }, [])
     const handleProject1 = () => {
         const Project_1 = document.getElementById("Project1");
         Project_1.addEventListener("click", () => {
@@ -56,33 +54,8 @@ const Projects = () => {
 
             <div className="row mb-5 pb-5">
                 {/* A_Doctors Card */}
-                <div id="Project1" className="col-md-6 hvr-grow">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={Doctor1} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={Doctor2} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={Doctor3} class="d-block w-100 Images" alt="..." />
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div data-aos="fade-right" id="Project1" className="col-md-6 hvr-grow">
+                    <img src={Doctor1} class="d-block w-100 Images" alt="..." />
                     {/* Details Button */}
                     <button onMouseEnter={handleProject1} className="Details">Details</button>
                 </div>
@@ -102,28 +75,8 @@ const Projects = () => {
                 {/* A_Doctors Card */}
 
                 {/* MySchool Card */}
-                <div id="Project2" className="col-md-6 hvr-grow">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={School1} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={School2} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={School3} class="d-block w-100 Images" alt="..." />
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div data-aos="fade-left" id="Project2" className="col-md-6 hvr-grow">
+                    <img src={School1} class="d-block w-100 Images" alt="..." />
                     <button onMouseEnter={handleProject2} className="Details">Details</button>
                 </div>
                 <div id="Project1_Details2" className="col-md-6 justify-content-center ms-auto text-white">
@@ -145,31 +98,11 @@ const Projects = () => {
                 {/* MySchool Card */}
 
                 {/* AshopBD Card */}
-                <div id="Project3" className="col-md-6 hvr-grow mt-4">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={Ashop1} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={Ashop2} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={Ashop3} class="d-block w-100 Images" alt="..." />
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div data-aos="fade-right" id="Project3" className="col-md-6 hvr-grow mt-4">
+                    <img src={Ashop1} class="d-block w-100 Images" alt="..." />
                     <button onMouseEnter={handleProject3} className="Details">Details</button>
                 </div>
-                <div  id="Project1_Details3" className="col-md-6 justify-content-center ms-auto text-white">
+                <div id="Project1_Details3" className="col-md-6 justify-content-center ms-auto text-white">
                     <div className="mb-5 ms-5">
                         <h1> AshopBD</h1>
                         <p>Full Stack Website</p>
@@ -178,38 +111,18 @@ const Projects = () => {
                             <li>Select product, add to cart, remove from cart options</li>
                             <li>Google Authentication and Privet Routes.</li>
                         </ul>
-                        <p className="text-secondary"> <b>Tech and Tools: </b> JavaScript, ES6, React, Material UI, NodeJS, <br/> ExpressJS, HTML5, CSS3, Bootstrap5, Firebase Authentication, React Router, Git, Github
+                        <p className="text-secondary"> <b>Tech and Tools: </b> JavaScript, ES6, React, Material UI, NodeJS, <br /> ExpressJS, HTML5, CSS3, Bootstrap5, Firebase Authentication, React Router, Git, Github
                         </p>
                     </div>
                 </div>
                 {/* A_shopBD Card */}
 
                 {/* StoreX Card */}
-                <div id="Project4" className="col-md-6 hvr-grow mt-4">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={StoreX2} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={StoreX2} class="d-block w-100 Images" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src={StoreX3} class="d-block w-100 Images" alt="..." />
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div data-aos="fade-left" id="Project4" className="col-md-6 hvr-grow mt-4">
+                    <img src={StoreX1} class="d-block w-100 Images" alt="..." />
                     <button onMouseEnter={handleProject4} className="Details">Details</button>
                 </div>
-                <div  id="Project1_Details4" className="col-md-6 justify-content-center ms-auto text-white">
+                <div id="Project1_Details4" className="col-md-6 justify-content-center ms-auto text-white">
                     <div className="mb-5 ms-5">
                         <h1> Store_X</h1>
                         <p>PSD to HTML</p>
