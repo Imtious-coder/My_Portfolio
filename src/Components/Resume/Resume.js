@@ -4,18 +4,24 @@ import { faFacebook, faGithub, faLinkedin, } from '@fortawesome/free-brands-svg-
 import { faMapMarkerAlt, faMobileAlt, faEnvelope, faGlobeEurope } from '@fortawesome/free-solid-svg-icons'
 import Image1 from './My.jpg';
 import './Resume.css';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Resume = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+    }, [])
     return (
         <section>
             <div className="container">
                 <div className="row">
                     {/* Left side */}
-                    <div style={{ backgroundColor: "lightGrey" }} className="col-md-4 ">
+                    <div data-aos="fade-right" style={{ backgroundColor: "lightGrey" }} className="col-md-4 ">
                         {/* Image and Name */}
                         <div>
-                            <div className="d-flex justify-content-center mt-5">
+                            <div data-aos="zoom-in" className="d-flex justify-content-center mt-5">
                                 <img id="Image" src={Image1} alt="" />
                             </div>
                             <h1 className="text-center mt-3 text-dark"><b>Imtious Islam</b></h1>
@@ -107,14 +113,14 @@ const Resume = () => {
 
                     {/* Right side */}
                     <div className="col-md-1"></div>
-                    <section className="col-md-7 mt-5 text-dark">
-                        <div className="text-justify">
+                    <section data-aos="fade-left" className="col-md-7 mt-5 text-dark">
+                        <div data-aos="zoom-in" className="text-justify">
                             <p>A passionate curious Front-End Developer. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal the organization success. I am passionately in love with front-end shizzle with pixel perfect design and hungry to learn new things daily.</p>
                         </div>
                         <div>
                             <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————PROJECTS——————————</b></h4>
                         </div>
-                        <div className="ps-5 pt-3 border shadow-sm">
+                        <div  data-aos="flip-left" className="ps-5 pt-3 border shadow-sm">
                             <h5><b>A_Doctors</b></h5>
                             <p><b>Front End Development (React)</b></p>
                             <ul>
@@ -124,7 +130,7 @@ const Resume = () => {
                             </ul>
                             <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, JavaScript, ES6, React, <br /> Material UI, React Router, Netlify, Git, Github</p>
                         </div>
-                        <div className="ps-5 mt-2 pt-3 border shadow-sm">
+                        <div  data-aos="flip-right" className="ps-5 mt-2 pt-3 border shadow-sm">
                             <h5><b>My_School </b></h5>
                             <p><b>Full Stack Website(ongoing)</b></p>
                             <ul>
@@ -135,7 +141,7 @@ const Resume = () => {
                             <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, React, Material UI, <br /> React Router, Git, Github
                             </p>
                         </div>
-                        <div className="ps-5 mt-2 pt-3 border shadow-sm">
+                        <div  data-aos="flip-up" className="ps-5 mt-2 pt-3 border shadow-sm">
                             <h5><b>AshopBD</b></h5>
                             <p><b>Full Stack Website</b></p>
                             <ul>
