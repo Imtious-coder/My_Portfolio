@@ -11,7 +11,7 @@ const Navbar = () => {
         AOS.init({ duration: 1000 })
     }, [])
     return (
-        <nav data-aos="fade-down" style={{ backgroundColor: "#303133" }} class="navbar navbar-expand-lg navbar-light ps-5 sticky-top shadow-sm">
+        <nav  style={{ backgroundColor: "#303133" }} class="navbar navbar-expand-lg navbar-light ps-5 sticky-top shadow-sm">
             <div class="container-fluid">
                 {/* Toggle Button */}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
