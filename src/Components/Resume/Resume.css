@@ -1,0 +1,32 @@
+#Image{
+    width: 150px;
+    height: 200px;
+    border: 10px solid white;
+}
+.Icon1{
+    margin-top: -10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 22px;
+}
+.Icon1:hover{
+    color: white;
+}
+.Icon2{
+    margin-top: -10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 22px;
+}
+.Icon2:hover{
+    color: white;
+}
+.Icon3{
+    margin-top: -10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 22px;
+}
+.Icon3:hover{
+    color: white;
+}

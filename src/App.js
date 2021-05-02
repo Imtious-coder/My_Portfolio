@@ -10,11 +10,13 @@ import Navbar from './Components/Home/Navbar/Navbar';
 import AllProjects from './Components/Projects/AllProjects/AllProjects';
 import Footer from './Components/Home/Footer/Footer';
 import Form from './Components/Home/Form/Form';
+import About from './Components/About/About';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
     <Router>
-      <Navbar></Navbar>
+      <Navbar />
       <Switch>
         <Route path="/home">
           <Home />
@@ -23,16 +25,22 @@ function App() {
           <Brain />
         </Route>
         <Route path="/navbar">
-          <Navbar></Navbar>
+          <Navbar />
         </Route>
         <Route path="/allprojects">
-          <AllProjects></AllProjects>
+          <AllProjects />
         </Route>
         <Route path="/footer">
-          <Footer></Footer>
+          <Footer />
         </Route>
         <Route path="/mail">
-          <Form></Form>
+          <Form />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="/">
           <Home />
@@ -41,6 +49,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
     
   );

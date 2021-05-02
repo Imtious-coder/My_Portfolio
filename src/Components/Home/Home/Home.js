@@ -13,8 +13,8 @@ const Home = () => {
             <Projects></Projects>
             <div style={{borderBottom:'1px solid grey', width:'75%'}} className="container mt-5 pt-5"></div>
             <Articles></Articles>
+            <div style={{borderBottom:'1px solid grey', width:'75%'}} className="container mt-5 pt-5"></div>
             <Form></Form>
-            <Footer></Footer>
         </div>
     );
 };

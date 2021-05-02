@@ -12,12 +12,12 @@ const Description = () => {
         AOS.init({duration: 1000})
     }, [])
     return (
-        <section className="container pt-5">
+        <section className="container">
             <div data-aos="fade-up" className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-6">
                     {/* Name */}
-                    <h1 className="text-white mt-5 mb-1">Imtious Islam Midul</h1>
+                    <h1 className="text-white pt-5 mt-5 mb-1">Imtious Islam Midul</h1>
                     {/* Title */}
                     <h5 className="text-white mb-3">Front-End Developer</h5>
                     {/* Description */}

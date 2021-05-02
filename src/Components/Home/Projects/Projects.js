@@ -1,16 +1,8 @@
 import React, { useEffect } from 'react';
 import Doctor1 from './Doctors1.png';
-import Doctor2 from './Doctors2.png';
-import Doctor3 from './Doctors3.png';
 import School1 from './School1.jpg';
-import School2 from './School2.png';
-import School3 from './School3.png';
 import Ashop1 from './Ashop1.png';
-import Ashop2 from './Ashop2.png';
-import Ashop3 from './Ashop3.png';
 import StoreX1 from './StoreX1.jpg';
-import StoreX2 from './StoreX2.png';
-import StoreX3 from './StoreX3.png';
 import './Projects.css';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
@@ -50,9 +42,9 @@ const Projects = () => {
     }
     return (
         <section className="container pb-5 pt-5">
-            <h4 className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
+            <h4 data-aos="flip-left" className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
 
-            <div className="row mb-5 pb-5">
+            <div className="row pb-5">
                 {/* A_Doctors Card */}
                 <div data-aos="fade-right" id="Project1" className="col-md-6 hvr-grow">
                     <img src={Doctor1} class="d-block w-100 Images" alt="..." />
@@ -141,8 +133,7 @@ const Projects = () => {
             {/* See more button.. */}
             <div className="container">
                 <div className="row">
-                    <div className="col-md-10 border-bottom-info"></div>
-                    <div className="col-md-2">
+                    <div className="col-md-2 d-flex justify-content-center">
                         <Link to="/allprojects"><button className="SeeMoreButton">See more</button></Link>
                     </div>
                 </div>
