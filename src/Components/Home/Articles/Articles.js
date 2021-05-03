@@ -22,9 +22,9 @@ const Articles = () => {
                     </div>
                 </div>
             </section>
-
             <section className="container">
                 <div className="row">
+                    {/* Article 1 */}
                     <div data-aos="fade-right" className="col-md-4 col-sm-12 pb-5 hvr-wobble-vertical d-flex justify-content-center">
                         <div class="card Articles">
                             <img src={coffee} class="card-img-top" alt="..." />
@@ -35,7 +35,7 @@ const Articles = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/* Article 2 */}
                     <div data-aos="fade-down" className="col-md-4 pb-5 hvr-wobble-vertical d-flex justify-content-center">
                         <div class="card Articles">
                             <img src={E} class="card-img-top" alt="..." />
@@ -46,7 +46,7 @@ const Articles = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/* Article 3 */}
                     <div data-aos="fade-left" className="col-md-4 d-flex justify-content-center">
                         <div class="card Articles hvr-wobble-vertical">
                             <img src={Mask} class="card-img-top " alt="..." />
@@ -57,10 +57,8 @@ const Articles = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
-
         </section>
     );
 };
