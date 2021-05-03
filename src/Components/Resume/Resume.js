@@ -35,7 +35,7 @@ const Resume = () => {
                         {/* Image and Name */}
 
                         {/* Contact */}
-                        <div>
+                        <div data-aos="fade-right">
                             {/* Title */}
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-5 pb-1 text-dark shadow-lg"><b>CONTACT</b></h4>
                             <div>
@@ -63,7 +63,7 @@ const Resume = () => {
                         {/* Contact */}
 
                         {/* Skils */}
-                        <div className="text-center text-dark">
+                        <div data-aos="fade-right" className="text-center text-dark">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-3 pb-1 text-dark shadow-lg"><b>SKILL</b></h4>
                             {/* Front end */}
                             <div className="mt-3 border shadow-sm">
@@ -83,7 +83,7 @@ const Resume = () => {
                         </div>
                         {/* Skills */}
                         {/* Experience */}
-                        <div className="text-center text-dark">
+                        <div data-aos="fade-right" className="text-center text-dark">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
                             <div className="border shadow-sm">
                                 <b>Senior Instructor</b>
@@ -98,7 +98,7 @@ const Resume = () => {
                         </div>
                         {/* Experience */}
                         {/* Hobbies */}
-                        <div className="text-center text-dark mb-5">
+                        <div data-aos="fade-right" className="text-center text-dark mb-5">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
                             <div className="row mt-3">
                                 <div className="col-md-6 shadow-sm"><p>Coding</p></div>
@@ -153,7 +153,7 @@ const Resume = () => {
                             </p>
                         </div>
 
-                        <div className="text-center">
+                        <div data-aos="zoom-in" className="text-center">
                             <div>
                                 <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————EDUCATION——————————</b></h4>
                             </div>
@@ -170,7 +170,7 @@ const Resume = () => {
                             </div>
                         </div>
 
-                        <div className="mt-4 pt-3 border shadow-sm text-center">
+                        <div data-aos="zoom-in" className="mt-4 pt-3 border shadow-sm text-center">
                             <p>Quick Learner | Team Worker | Tech Lover</p>
                         </div>
                     </section>

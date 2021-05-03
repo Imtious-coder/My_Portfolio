@@ -25,6 +25,7 @@ const About = () => {
                     <div data-aos="fade-left" className="col-md-7 mt-5 mb-5 pt-3 pb-5">
                         <div>
                             <h1 className=" d-flex justify-content-center text-dark">—— About me ——</h1>
+                            {/* Details */}
                             <p className="text-dark mt-4 d-flex justify-content-center "> I'm Imtious Islam. A passionate curious Front-End Developer. Looking for a great challenging role at a progressive organization that will help me to implement my skills <br /> and knowledge with the goal of the organization's success. I am passionately in love <br /> with front-end shizzle with pixel-perfect design and curious to learn <br /> new things daily.</p>
                             <div className="row text-dark pt-3 d-flex justify-content-center">
                                 <div data-aos="flip-left" className="col-md-6 border me-2 shadow-sm">
