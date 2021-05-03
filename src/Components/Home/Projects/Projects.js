@@ -9,8 +9,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Projects = () => {
-    useEffect (() => {
-        AOS.init({duration: 1000})
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
     }, [])
     const handleProject1 = () => {
         const Project_1 = document.getElementById("Project1");

@@ -114,13 +114,15 @@ const Resume = () => {
                     {/* Right side */}
                     <div className="col-md-1"></div>
                     <section data-aos="fade-left" className="col-md-7 mt-5 text-dark">
+                        {/* Description... */}
                         <div data-aos="zoom-in" className="text-justify">
                             <p>A passionate curious Front-End Developer. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal the organization success. I am passionately in love with front-end shizzle with pixel perfect design and hungry to learn new things daily.</p>
                         </div>
                         <div>
                             <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————PROJECTS——————————</b></h4>
                         </div>
-                        <div  data-aos="flip-left" className="ps-5 pt-3 border shadow-sm">
+                        {/* project 1 */}
+                        <div data-aos="flip-left" className="ps-5 pt-3 border shadow-sm">
                             <h5><b>A_Doctors</b></h5>
                             <p><b>Front End Development (React)</b></p>
                             <ul>
@@ -130,7 +132,8 @@ const Resume = () => {
                             </ul>
                             <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, JavaScript, ES6, React, <br /> Material UI, React Router, Netlify, Git, Github</p>
                         </div>
-                        <div  data-aos="flip-right" className="ps-5 mt-2 pt-3 border shadow-sm">
+                        {/* Project 2 */}
+                        <div data-aos="flip-right" className="ps-5 mt-2 pt-3 border shadow-sm">
                             <h5><b>My_School </b></h5>
                             <p><b>Full Stack Website(ongoing)</b></p>
                             <ul>
@@ -141,7 +144,8 @@ const Resume = () => {
                             <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, React, Material UI, <br /> React Router, Git, Github
                             </p>
                         </div>
-                        <div  data-aos="flip-up" className="ps-5 mt-2 pt-3 border shadow-sm">
+                        {/* Project 3 */}
+                        <div data-aos="flip-up" className="ps-5 mt-2 pt-3 border shadow-sm">
                             <h5><b>AshopBD</b></h5>
                             <p><b>Full Stack Website</b></p>
                             <ul>
@@ -152,30 +156,31 @@ const Resume = () => {
                             <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, JavaScript, ES6, React, <br /> Material UI, NodeJS, ExpressJS, Firebase Authentication, React Router, Git, Github
                             </p>
                         </div>
-
+                        {/* Eduvation section */}
                         <div data-aos="zoom-in" className="text-center">
                             <div>
                                 <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————EDUCATION——————————</b></h4>
                             </div>
+                            {/* Diploma */}
                             <div className="mt-3 border shadow-sm pt-2">
                                 <p><b>Diploma In Engineering (ongoing)</b></p>
                                 <p>Feni Computer Institute</p>
                                 <p>Telecom and Computer Science</p>
                                 <p>3rd semester (3.32)</p>
                             </div>
+                            {/* SSC */}
                             <div className="mt-3 border shadow-sm pt-2">
                                 <p><b>S.S.C (2018)</b></p>
                                 <p>Shimpur High School </p>
                                 <p>Science - 4.44	</p>
                             </div>
                         </div>
-
+                        {/* Others skills */}
                         <div data-aos="zoom-in" className="mt-4 pt-3 border shadow-sm text-center">
                             <p>Quick Learner | Team Worker | Tech Lover</p>
                         </div>
                     </section>
                     {/* Right side */}
-
                 </div>
             </div>
         </section>
