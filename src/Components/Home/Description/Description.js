@@ -21,9 +21,7 @@ const Description = () => {
                     {/* Title */}
                     <h5 className="text-white mb-3">Front-End Developer</h5>
                     {/* Description */}
-                    <small className="text-secondary">I'm a front-end developer based in Feni, Bangladesh specializing
-                    in building (and occasionally designing) exceptional websites
-                         with latest technologies.</small> <br />
+                    <small className="text-secondary">A passionate curious Front-End Developer based in Feni. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal the organization success. I am passionately in <br/> love with front-end shizzle with pixel perfect design and exploring new things daily.</small> <br />
                     {/* Resume Download Button */}
                     <a href={Resume} target="_blank" className="hvr-grow" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
