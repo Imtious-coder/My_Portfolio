@@ -11,9 +11,7 @@ const Footer = () => {
         AOS.init({ duration: 1000 })
     }, [])
     return (
-        <footer data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-offset="0" className="bg-dark pb-4">
+        <footer className="bg-dark pb-4">
             <div className="container pt-5">
                 <div className="row">
                     {/* Socila links */}
