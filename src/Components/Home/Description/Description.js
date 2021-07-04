@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Description.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
-import Resume from '../../../Resume/RESUME.pdf';
+import Resume from './RESUME.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
