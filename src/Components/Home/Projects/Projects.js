@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
-import Doctor1 from './Doctors1.png';
-import School1 from './School1.jpg';
-import Ashop1 from './Ashop1.png';
+import Doctor1 from './A_Doctors.png';
 import StoreX1 from './StoreX1.jpg';
+import Temperature1 from './Temperature1.png';
+import Ashop1 from './Ashop1.png';
+import School1 from './School1.jpg';
+import Amazon1 from './Amazon1.png';
 import './Projects.css';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
@@ -14,122 +16,6 @@ const Projects = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 })
     }, [])
-    const handleProject1 = () => {
-        const Project_1 = document.getElementById("Project1");
-        Project_1.addEventListener("click", () => {
-            document.getElementById("Project1").style.display = "none";
-            document.getElementById("Project1_Details1").style.display = "block";
-        })
-    }
-    const handleProject2 = () => {
-        const Project_2 = document.getElementById("Project2");
-        Project_2.addEventListener("click", () => {
-            document.getElementById("Project2").style.display = "none";
-            document.getElementById("Project1_Details2").style.display = "block";
-        })
-    }
-    const handleProject3 = () => {
-        const Project_3 = document.getElementById("Project3");
-        Project_3.addEventListener("click", () => {
-            document.getElementById("Project3").style.display = "none";
-            document.getElementById("Project1_Details3").style.display = "block";
-        })
-    }
-    const handleProject4 = () => {
-        const Project_4 = document.getElementById("Project4");
-        Project_4.addEventListener("click", () => {
-            document.getElementById("Project4").style.display = "none";
-            document.getElementById("Project1_Details4").style.display = "block";
-        })
-    }
-
-
-    // {/* <div className="row pb-5">
-    //                 {/* A_Doctors Card */}
-    //                 <div data-aos="fade-right" id="Project1" className="col-md-6 hvr-grow">
-    //                     <img src={Doctor1} class="d-block w-100 Images" alt="..." />
-    //                     {/* Details Button */}
-    //                     <button onMouseEnter={handleProject1} className="Details">Details</button>
-    //                 </div>
-
-    //                 <div id="Project1_Details1" className="col-md-6 justify-content-center ms-auto text-white">
-    //                     <div className="mb-5 ms-5">
-    //                         <h1>A_Doctors</h1>
-    //                         <p>Full Stack Project</p>
-    //                         <ul className="text-secondary">
-    //                             <li>Dentist Appointment taking website.</li>
-    //                             <li>Choose the service you want.</li>
-    //                             <li>Pick any flexible date for appointment.</li>
-    //                         </ul>
-    //                         <p className="text-secondary"> <b>Tech and Tools: </b>JavaScript, React, HTML5, CSS3, Bootstrap, <br /> React Router, Fontawesome, Netlify, Git, Github</p>
-    //                     </div>
-    //                 </div>
-    //                 {/* A_Doctors Card */}
-
-    //                 {/* MySchool Card */}
-    //                 <div data-aos="fade-left" id="Project2" className="col-md-6 hvr-grow">
-    //                     <img src={School1} class="d-block w-100 Images" alt="..." />
-    //                     <button onMouseEnter={handleProject2} className="Details">Details</button>
-    //                 </div>
-    //                 <div id="Project1_Details2" className="col-md-6 justify-content-center ms-auto text-white">
-    //                     <div className="ms-5 mb-5">
-    //                         <h1>My_School</h1>
-    //                         <p>Full Stack Project</p>
-    //                         <ul className="text-secondary">
-    //                             <li>A School Management System.</li>
-    //                             <li>Teachers information..</li>
-    //                             <li>All notice.</li>
-    //                             <li>Students informations.</li>
-    //                             <li>Admin/Teachers can add or remove a notice.</li>
-    //                             <li>Admin/Teachers are able to update results.</li>
-    //                             <li>Students can update theis informations.</li>
-    //                         </ul>
-    //                         <p className="text-secondary"> <b>Tech and Tools: </b>JavaScript, React, Node, Express, HTML5, CSS3, Bootstrap, <br /> MaterialUI, React Router, Fontawesome, Git, Github</p>
-    //                     </div>
-    //                 </div>
-    //                 {/* MySchool Card */}
-
-    //                 {/* AshopBD Card */}
-    //                 <div data-aos="fade-right" id="Project3" className="col-md-6 hvr-grow mt-4">
-    //                     <img src={Ashop1} class="d-block w-100 Images" alt="..." />
-    //                     <button onMouseEnter={handleProject3} className="Details">Details</button>
-    //                 </div>
-    //                 <div id="Project1_Details3" className="col-md-6 justify-content-center ms-auto text-white">
-    //                     <div className="mb-5 ms-5">
-    //                         <h1> AshopBD</h1>
-    //                         <p>Full Stack Website</p>
-    //                         <ul className="text-secondary">
-    //                             <li>Awesome E-commerce website.</li>
-    //                             <li>Select product, add to cart, remove from cart options</li>
-    //                             <li>Google Authentication and Privet Routes.</li>
-    //                         </ul>
-    //                         <p className="text-secondary"> <b>Tech and Tools: </b> JavaScript, ES6, React, Material UI, NodeJS, <br /> ExpressJS, HTML5, CSS3, Bootstrap5, Firebase Authentication, React Router, Git, Github
-    //                         </p>
-    //                     </div>
-    //                 </div>
-    //                 {/* A_shopBD Card */}
-
-    //                 {/* StoreX Card */}
-    //                 <div data-aos="fade-left" id="Project4" className="col-md-6 hvr-grow mt-4">
-    //                     <img src={StoreX1} class="d-block w-100 Images" alt="..." />
-    //                     <button onMouseEnter={handleProject4} className="Details">Details</button>
-    //                 </div>
-    //                 <div id="Project1_Details4" className="col-md-6 justify-content-center ms-auto text-white">
-    //                     <div className="mb-5 ms-5">
-    //                         <h1> Store_X</h1>
-    //                         <p>PSD to HTML</p>
-    //                         <ul className="text-secondary">
-    //                             <li>HTML5</li>
-    //                             <li>CSS3</li>
-    //                             <li>Bootstrap</li>
-    //                             <li>Font Awesome</li>
-    //                         </ul>
-    //                     </div>
-    //                 </div>
-    //                 {/* StoreX Card */}
-
-    //             </div> */}
-
 
     return (
         <section className="container pb-5 pt-5">
@@ -138,19 +24,19 @@ const Projects = () => {
             <section>
                 <div className="container">
                     <div className="row">
-                        {/* School card */}
-                        <div className="col-md-4">
+                        {/* A_Doctors card */}
+                        <div data-aos="fade-right" className="col-md-4 mb-5">
                             <div className="Card">
                                 {/* Image */}
-                                <img style={{ width: '100%', height: '100%' }} src={School1} alt="" />
+                                <img style={{ width: '100%', height: '200px' }} src={Doctor1} alt="" />
                                 {/* Description overlay */}
                                 <div className="container Description">
-                                    <h4 className="mt-4">MySchool</h4>
-                                    <p> Full Stack School Managment Project</p>
+                                    <h4 className="mt-5">A_Doctors</h4>
+                                    <p> Front-End Development</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
-                                        <a href="https://nervous-bohr-bb27db.netlify.app/" target="_blank">
+                                        <a href="https://keen-sinoussi-d5c500.netlify.app/" target="_blank">
                                             <div>
                                                 <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
                                             </div>
@@ -163,15 +49,93 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* School card */}
+                        {/* A_Doctors card */}
+                        {/* StoreX card */}
+                        <div data-aos="flip-right" className="col-md-4">
+                            <div className="Card">
+                                {/* Image */}
+                                <img style={{ width: '100%', height: '200px' }} src={StoreX1} alt="" />
+                                {/* Description overlay */}
+                                <div className="container Description">
+                                    <h4 className="mt-5">StoreX</h4>
+                                    <p> PSD to HTML</p>
+                                    {/* Buttons */}
+                                    <div className="d-flex">
+                                        {/* Live site */}
+                                        <a href="https://imtious-coder.github.io/Store_X/" target="_blank">
+                                            <div>
+                                                <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
+                                            </div>
+                                        </a>
+                                        {/* Details */}
+                                        <div>
+                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* StoreX card */}
+                        {/* Temperature-Finder card */}
+                        <div data-aos="fade-left" className="col-md-4">
+                            <div className="Card">
+                                {/* Image */}
+                                <img style={{ width: '100%', height: '200px' }} src={Temperature1} alt="" />
+                                {/* Description overlay */}
+                                <div className="container Description">
+                                    <h4 className="mt-5">Temperature-Finder</h4>
+                                    <p> Full Stack Development</p>
+                                    {/* Buttons */}
+                                    <div className="d-flex">
+                                        {/* Live site */}
+                                        <a href="https://imtious-coder.github.io/Temperature-Finder/" target="_blank">
+                                            <div>
+                                                <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
+                                            </div>
+                                        </a>
+                                        {/* Details */}
+                                        <div>
+                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Temperature-Finder card */}
+                        {/* My_School card */}
+                        <div data-aos="fade-right" className="col-md-4">
+                            <div className="Card">
+                                {/* Image */}
+                                <img style={{ width: '100%', height: '100%' }} src={School1} alt="" />
+                                {/* Description overlay */}
+                                <div className="container Description">
+                                    <h4 className="mt-5">My_School</h4>
+                                    <p> Full Stack E-Commerce Project</p>
+                                    {/* Buttons */}
+                                    <div className="d-flex">
+                                        {/* Live site */}
+                                        <a href="https://myschool-com.web.app/" target="_blank">
+                                            <div>
+                                                <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
+                                            </div>
+                                        </a>
+                                        {/* Details */}
+                                        <div>
+                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* My_School card */}
                         {/* A_ShopBD card */}
-                        <div className="col-md-4">
+                        <div data-aos="flip-right" className="col-md-4">
                             <div className="Card">
                                 {/* Image */}
                                 <img style={{ width: '100%', height: '100%' }} src={Ashop1} alt="" />
                                 {/* Description overlay */}
                                 <div className="container Description">
-                                    <h4 className="mt-4">A_ShopBD</h4>
+                                    <h4 className="mt-5">A_ShopBD</h4>
                                     <p> Full Stack E-Commerce Project</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
@@ -190,19 +154,19 @@ const Projects = () => {
                             </div>
                         </div>
                         {/* A_ShopBD card */}
-                        {/* School card */}
-                        <div className="col-md-4">
+                        {/* Amazon_Login_CLone card */}
+                        <div data-aos="fade-left" className="col-md-4">
                             <div className="Card">
                                 {/* Image */}
-                                <img style={{ width: '100%', height: '100%' }} src={StoreX1} alt="" />
+                                <img style={{ width: '100%', height: '100%' }} src={Amazon1} alt="" />
                                 {/* Description overlay */}
                                 <div className="container Description">
-                                    <h4 className="mt-4">StoreX</h4>
-                                    <p> PSD to HTML</p>
+                                    <h4 className="mt-5">Amazon_Login_CLone</h4>
+                                    <p> Full Stack Development</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
-                                        <a href="https://imtious-coder.github.io/Store_X/" target="_blank">
+                                        <a href="https://fir-14da6.web.app/" target="_blank">
                                             <div>
                                                 <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
                                             </div>
@@ -215,7 +179,8 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* School card */}
+                        {/* Amazon_Login_CLone card */}
+                        
                     </div>
                 </div>
             </section>
