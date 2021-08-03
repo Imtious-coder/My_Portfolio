@@ -2,14 +2,24 @@
     font-size: 28px;
     font-weight: 500px;
     text-transform: uppercase;
-    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: rgba(136, 255, 0, 0.788);
+    transition: all .5s ease-in-out;
+}
+.Name:hover{
+    color: rgb(255, 230, 0);
 }
 .Nav{
-    border-bottom: 0.5px solid rgb(227, 245, 255);
     padding-bottom: 3px;
 }
 .Nav:hover{
+    color: rgba(128, 255, 0, 0.842)!important;
     text-shadow: 0 0 5px #ffee10;
-    border-bottom: 0.5px solid #ffee10;
+    border-bottom: 0.5px solid rgba(128, 255, 0, 0.842);
+}
+.active{
+    color: rgba(128, 255, 0, 0.781)!important;
 }
 
