@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye, faCaretRight } from '@fortawesome/free-solid-svg-icons'
+import { faEye, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 import AOS from 'aos';
 import './Projects.css';
@@ -38,6 +38,7 @@ const Projects = () => {
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">Calculator</p>
                                     <p className="Card_Description"> Front-End Development</p>
+                                    <p className="Card_Info">A Frontend website based in JavaScript(React).</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -48,7 +49,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -65,6 +66,7 @@ const Projects = () => {
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">A_Doctors</p>
                                     <p className="Card_Description"> Front-End Development</p>
+                                    <p className="Card_Info">Doctors appointment taking website by JavaScript(React).</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -75,7 +77,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -91,6 +93,7 @@ const Projects = () => {
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">StoreX</p>
                                     <p className="Card_Description"> PSD to HTML</p>
+                                    <p className="Card_Info">A Pixel Perfect fully responsive PSD to HTML site. </p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -101,7 +104,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +119,8 @@ const Projects = () => {
                                 {/* Description overlay */}
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">Temperature-Finder</p>
-                                    <p className="Card_Description"> Full Stack Development</p>
+                                    <p className="Card_Description"> Most updated temperature</p>
+                                    <p className="Card_Info">Frontend based temperature finder website by React.js</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -127,7 +131,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +146,8 @@ const Projects = () => {
                                 {/* Description overlay */}
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">My_School</p>
-                                    <p className="Card_Description"> Full Stack E-Commerce Project</p>
+                                    <p className="Card_Description"> School management system</p>
+                                    <p className="Card_Info">Ongoing full-stack project including all management system for a school.</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -153,7 +158,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +173,8 @@ const Projects = () => {
                                 {/* Description overlay */}
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">A_ShopBD</p>
-                                    <p className="Card_Description"> Full Stack E-Commerce Project</p>
+                                    <p className="Card_Description"> E-commerce Web App</p>
+                                    <p className="Card_Info">Full-stack e-commerce project by React, Node, and MongoDB.</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -179,7 +185,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +200,8 @@ const Projects = () => {
                                 {/* Description overlay */}
                                 <div className="container Description">
                                     <p className="mt-2 Card_Title">Amazon_Login_CLone</p>
-                                    <p  className="Card_Description"> Full Stack Development</p>
+                                    <p  className="Card_Description"> Login system</p>
+                                    <p className="Card_Info">Frontend based fully cloned login system of amazon.</p>
                                     {/* Buttons */}
                                     <div className="d-flex">
                                         {/* Live site */}
@@ -205,7 +212,7 @@ const Projects = () => {
                                         </a>
                                         {/* Details */}
                                         <div>
-                                            <button className="Details--Button">Details <FontAwesomeIcon className="pt-1" icon={faCaretRight} /></button>
+                                            <button className="Details--Button">Details <FontAwesomeIcon  icon={faAngleRight} /></button>
                                         </div>
                                     </div>
                                 </div>
