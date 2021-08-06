@@ -30,33 +30,35 @@ const Projects = () => {
                 <div className="container">
                     <div className="row">
                         {
-                            data.map(project =>  {
+                            data.map(project => {
                                 return (
                                     <div data-aos="fade-right" className="col-md-4 mb-5">
-                                    <div className="Card">
-                                        {/* Image */}
-                                        <img className="Card_Images" src={project.image} alt="" />
-                                        {/* Description overlay */}
-                                        <div className="container Description">
-                                            <p className="mt-2 Card_Title">{project.name}</p>
-                                            <p className="Card_Description">{project.description}</p>
-                                            <p className="Card_Info">{project.information}</p>
-                                            {/* Buttons */}
-                                            <div className="d-flex">
-                                                {/* Live site */}
-                                                <a href={project.preview} target="_blank" rel="noreferrer">
-                                                    <div>
-                                                        <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
-                                                    </div>
-                                                </a>
-                                                {/* Details */}
-                                                <div>
-                                                    <button className="Details--Button">Details <FontAwesomeIcon icon={faAngleRight} /></button>
+                                        <div className="Card">
+                                            {/* Image */}
+                                            <img className="Card_Images" src={project.image} alt="" />
+                                            {/* Description overlay */}
+                                            <div className="container Description">
+                                                <p className="mt-2 Card_Title">{project.name}</p>
+                                                <p className="Card_Description">{project.description}</p>
+                                                <p className="Card_Info">{project.information}</p>
+                                                {/* Buttons */}
+                                                <div className="d-flex">
+                                                    {/* Live site */}
+                                                    <a href={project.website} target="_blank" rel="noreferrer">
+                                                        <div>
+                                                            <button className="Preview--Button"> <FontAwesomeIcon icon={faEye} /> Preview</button>
+                                                        </div>
+                                                    </a>
+                                                    {/* Details */}
+                                                    <Link to={"/projectDetails/" + project.name}>
+                                                        <div>
+                                                            <button className="Details--Button">Details <FontAwesomeIcon icon={faAngleRight} /></button>
+                                                        </div>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                                 )
                             })
                         }

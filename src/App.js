@@ -12,6 +12,7 @@ import Footer from './Components/Home/Footer/Footer';
 import Form from './Components/Home/Form/Form';
 import About from './Components/About/About';
 import Resume from './Components/Resume/Resume';
+import ProjectDetails from './Components/Projects/ProjectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route path="/resume">
           <Resume />
+        </Route>
+        <Route path="/projectDetails/:projectName">
+          <ProjectDetails />
         </Route>
         <Route path="/">
           <Home />

@@ -70,3 +70,7 @@ body {
 .Font1 {
   font-family: 'MonteCarlo', cursive;
 }
+
+a {
+  text-decoration: none;
+}

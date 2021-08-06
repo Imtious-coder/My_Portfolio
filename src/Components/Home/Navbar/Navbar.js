@@ -12,7 +12,7 @@ const Navbar = () => {
     }, [])
     return (
 
-        <nav style={{ backgroundColor: "#303133" }} class="navbar navbar-expand-lg navbar-light ps-5 sticky-top shadow-sm">
+        <nav style={{ backgroundColor: "#303133" }} class="navbar navbar-expand-lg navbar-light ps-2 sticky-top shadow-sm">
             <div class="container-fluid">
                 {/* Toggle Button */}
                 <a class="Name me-5 Font1" href="#">Imtious</a>
