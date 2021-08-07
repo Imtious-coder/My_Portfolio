@@ -10,7 +10,7 @@ import { useParams } from 'react-router';
 const ProjectDetails = () => {
   const { projectName } = useParams();
   const details = ProjectData.find((detail) => detail.name === projectName);
-  const { name, description, information, website, fullImage, code, li1, li2, li3, li4, li5, li6, li7 } = details;
+  const { name, image, information, website, fullImage, code, li1, li2, li3, li4, li5, li6, li7 } = details;
   return (
     <section className="pt-5 pb-5 Project-Details">
       <div className="container">
@@ -29,15 +29,17 @@ const ProjectDetails = () => {
               <li> {li7} </li>
             </ul>
             <div className="d-flex">
-              <a href="">
-                <p className="Project-Icons"> <FontAwesomeIcon icon={faGlobeEurope} /> {website} </p>
+              <a href={website}>
+                <p className="Project-Icons"> <FontAwesomeIcon icon={faGlobeEurope} /> Website </p>
               </a>
-              <p className="Project-Icons" > <FontAwesomeIcon icon={faCodeBranch} /> {code} </p>
+              <a href={code}>
+                <p className="Project-Icons" > <FontAwesomeIcon icon={faCodeBranch} /> Code </p>
+              </a>
             </div>
           </div>
           {/* Project Image */}
           <div className="col-md-6">
-            <img className="Project-Image" src={fullImage} alt="" />
+            <img className="Project-Image" src={image} alt="" />
           </div>
         </div>
       </div>
