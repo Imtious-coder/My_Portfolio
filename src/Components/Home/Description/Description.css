@@ -4,10 +4,11 @@
 .Button{
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 5px 7px;
     background-color: #303133;
     border: 1px solid white;
-    width: 150px;
+    width: 140px;
+    border-radius: 3px;
     text-decoration: none;
 }
 .Button:hover{

@@ -16,8 +16,7 @@ const Description = () => {
     return (
         <section className="container">
             <div data-aos="fade-up" className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-6">
+                <div className="col-md-7 ms-3">
                     {/* Name */}
                     <h1 className="text-white pt-5 mt-5 mb-1">Imtious Islam Midul</h1>
                     {/* Title */}
