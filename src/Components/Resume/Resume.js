@@ -94,8 +94,8 @@ const Resume = () => {
                         </div>
                         {/* Experience */}
                         {/* Hobbies */}
-                        <div data-aos="fade-right" className="text-center text-dark mb-5">
-                            <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
+                        <div data-aos="fade-right" className="text-center text-dark mb-3">
+                            <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>HOBBIES</b></h4>
                             <div className="row mt-3">
                                 <div className="col-md-6 shadow-sm"><p>Coding</p></div>
                                 <div className="col-md-6 shadow-sm"><p>Reading</p></div>
@@ -104,6 +104,11 @@ const Resume = () => {
                             </div>
                         </div>
                         {/* Hobbies */}
+
+                        {/* Others skills */}
+                        <div data-aos="zoom-in" className="mt-2 pt-3 border shadow-sm text-center text-secondary">
+                            <p><b>Quick Learner | Team Worker | Tech Lover</b></p>
+                        </div>
                     </div>
                     {/* Left side */}
 
@@ -119,37 +124,38 @@ const Resume = () => {
                         </div>
                         {/* project 1 */}
                         <div data-aos="flip-left" className="ps-5 pt-3 border shadow-sm">
-                            <h5><b>A_Doctors</b></h5>
+                            <h5><b>Note App</b></h5>
                             <p><b>Front End Development (React)</b></p>
                             <ul>
-                                <li>Appointment taking website.</li>
-                                <li>Choose the service you want.</li>
-                                <li>Pick any flexible date for appointment.</li>
+                                <li>A note app by JavaScript.</li>
+                                <li>Add multiple notes.</li>
+                                <li>Select and edit notes.</li>
+                                <li>Live preview of edit and clean code.</li>
                             </ul>
-                            <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, JavaScript, ES6, React, <br /> Material UI, React Router, Netlify, Git, Github</p>
+                            <p><b>Tech and Tools:</b>  React.js, JavaScript (ES6+), HTML5, CSS3, React Hooks, React Markdown, React Uuid, and Git</p>
                         </div>
                         {/* Project 2 */}
                         <div data-aos="flip-right" className="ps-5 mt-2 pt-3 border shadow-sm">
-                            <h5><b>My_School </b></h5>
-                            <p><b>Full Stack Website(ongoing)</b></p>
+                            <h5><b>Calculator </b></h5>
+                            <p><b>Front End Development (React)</b></p>
                             <ul>
-                                <li>School Management System</li>
-                                <li>Teachers, Students, Notice, Results details</li>
-                                <li>Admin can update Notice, result and other details</li>
+                                <li>Responsive design.</li>
+                                <li>Smooth calculation.</li>
                             </ul>
-                            <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, React, Material UI, <br /> React Router, Git, Github
+                            <p><b>Tech and Tools:</b> React.js, JavaScript (ES6+), HTML5, CSS3,  React Hooks, Material UI, <br /> React Router, CSS Grid, and Git
                             </p>
                         </div>
                         {/* Project 3 */}
                         <div data-aos="flip-up" className="ps-5 mt-2 pt-3 border shadow-sm">
-                            <h5><b>AshopBD</b></h5>
-                            <p><b>Full Stack Website</b></p>
+                            <h5><b>Comus</b></h5>
+                            <p><b>Front End Development (React)</b></p>
                             <ul>
-                                <li>Awesome E-commerce website.</li>
-                                <li>Select product, add to cart, remove from cart.</li>
-                                <li>Google Authentication and Privet Routes.</li>
+                                <li>A color picker website.</li>
+                                <li>Pick the color and get the color code.</li>
+                                <li>Live background changes on color pick. </li>
+                                <li>Smooth, responsive, clean, & well commented code.</li>
                             </ul>
-                            <p><b>Tech and Tools:</b> HTML5, CSS3, Bootstrap5, JavaScript, ES6, React, <br /> Material UI, NodeJS, ExpressJS, Firebase Authentication, React Router, Git, Github
+                            <p><b>Tech and Tools:</b> React.js, JavaScript (ES6+), HTML5, CSS3, React Color, Git, and Netlify.
                             </p>
                         </div>
                         {/* Eduvation section */}
@@ -160,21 +166,18 @@ const Resume = () => {
                             {/* Diploma */}
                             <div className="mt-3 border shadow-sm pt-2">
                                 <p><b>Diploma In Engineering (ongoing)</b></p>
-                                <p>Feni Computer Institute</p>
-                                <p>Telecom and Computer Science</p>
+                                <p>Feni Computer Institute (FCI)</p>
+                                <p>Telecommmunication & Computer Science Technology</p>
                                 <p>3rd semester (3.32)</p>
                             </div>
                             {/* SSC */}
-                            <div className="mt-3 border shadow-sm pt-2">
+                            <div className="mt-3 mb-2 pb-1 border shadow-sm pt-2">
                                 <p><b>S.S.C (2018)</b></p>
                                 <p>Shimpur High School </p>
                                 <p>Science - 4.44	</p>
                             </div>
                         </div>
-                        {/* Others skills */}
-                        <div data-aos="zoom-in" className="mt-4 pt-3 border shadow-sm text-center">
-                            <p>Quick Learner | Team Worker | Tech Lover</p>
-                        </div>
+                        
                     </section>
                     {/* Right side */}
                 </div>

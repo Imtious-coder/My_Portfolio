@@ -6,7 +6,7 @@
 .Icon1{
     margin-top: -10px;
     margin-right: 10px;
-    color: black;
+    color: rgb(62, 114, 255);
     font-size: 22px;
 }
 .Icon1:hover{
@@ -15,7 +15,7 @@
 .Icon2{
     margin-top: -10px;
     margin-right: 10px;
-    color: black;
+    color: rgb(83, 83, 83);
     font-size: 22px;
 }
 .Icon2:hover{
@@ -24,9 +24,9 @@
 .Icon3{
     margin-top: -10px;
     margin-right: 10px;
-    color: black;
+    color: rgb(49, 162, 255);
     font-size: 22px;
 }
 .Icon3:hover{
-    color: rgb(46, 102, 255);
+    color: rgb(21, 142, 255);
 }
