@@ -19,3 +19,8 @@
 .Button-Icon{
     font-size: 12px;
 }
+
+.Image{
+    width: 100%;
+    opacity: .02;
+}

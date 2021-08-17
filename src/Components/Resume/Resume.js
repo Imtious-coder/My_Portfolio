@@ -26,6 +26,7 @@ const Resume = () => {
                             </div>
                             <h1 className="text-center mt-3 text-dark"><b>Imtious Islam</b></h1>
                             <p className="text-center text-dark"><b>Front-End Developer</b></p>
+                            {/* Icons */}
                             <div className="text-center">
                                 <FontAwesomeIcon className="Icon1" icon={faFacebook} />
                                 <FontAwesomeIcon className="Icon2" icon={faGithub} />
@@ -68,17 +69,17 @@ const Resume = () => {
                             {/* Front end */}
                             <div className="mt-3 border shadow-sm">
                                 <b>Front-End: </b>
-                                <p><b>|</b> JavaScript (ES6+)  <b>|</b> ReactJS  <b>|</b> REST API  <b>|</b> HTML5  <b>|</b> CSS3  <b>|</b> Bootstrap  <b>|</b> Antd  <b>|</b> SASS  <b>|</b> Material UI  <b>|</b> Typescript  <b>|</b></p>
+                                <p><b>|</b> React.js  <b>|</b> JavaScript  <b>|</b> ES6+  <b>|</b> HTML5  <b>|</b> CSS3  <b>|</b> Bootstrap  <b>|</b> Tailwind  <b>|</b> Ant Design  <b>|</b> Material UI  <b>|</b></p>
                             </div>
                             {/* Back end */}
                             <div className="mt-3 border shadow-sm">
                                 <b>Back-End: </b>
-                                <p><b>|</b> NodeJS <b>|</b> ExpressJS  <b>|</b> MongoDB  <b>|</b> Heroku  <b>|</b> Firebase  <b>|</b> Netlify <b>|</b></p>
+                                <p><b>|</b> Node.js <b>|</b> Express.js  <b>|</b> MongoDB  <b>|</b> Heroku  <b>|</b> REST API <b>|</b> Firebase  <b>|</b> Netlify <b>|</b></p>
                             </div>
                             {/* Tools */}
                             <div className="mt-3 border shadow-sm">
                                 <b>Tools: </b>
-                                <p><b>|</b> Git <b>|</b> Github <b>|</b> Npm <b>|</b> Figma <b>|</b> VS Code <b>|</b> Chrome Dev Tools <b>|</b></p>
+                                <p><b>|</b> Git <b>|</b> Npm <b>|</b> Figma <b>|</b> VS Code <b>|</b> Chrome Dev Tools <b>|</b></p>
                             </div>
                         </div>
                         {/* Skills */}
@@ -86,14 +87,9 @@ const Resume = () => {
                         <div data-aos="fade-right" className="text-center text-dark">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
                             <div className="border shadow-sm">
-                                <b>Senior Instructor</b>
-                                <p>Feni IT Center</p>
-                                <p>2019(Feb)-2019(April)</p>
-                            </div>
-                            <div className="border mt-2 shadow-sm">
-                                <b>Senior Director</b>
-                                <p>LDS</p>
-                                <p>2020(Jan)-2021(Jan)</p>
+                                <b>Software Engineer Intern </b>
+                                <p className="m-0">CircleDi</p>
+                                <p>20th may 2021 - Current</p>
                             </div>
                         </div>
                         {/* Experience */}

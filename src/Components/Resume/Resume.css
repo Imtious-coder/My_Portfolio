@@ -10,7 +10,7 @@
     font-size: 22px;
 }
 .Icon1:hover{
-    color: white;
+    color: rgb(0, 60, 255);
 }
 .Icon2{
     margin-top: -10px;
@@ -28,5 +28,5 @@
     font-size: 22px;
 }
 .Icon3:hover{
-    color: white;
+    color: rgb(46, 102, 255);
 }

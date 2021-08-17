@@ -5,6 +5,7 @@ import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 import './Description.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
 import Resume from './RESUME.pdf';
+import Image from './images.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,7 +17,7 @@ const Description = () => {
     return (
         <section className="container">
             <div data-aos="fade-up" className="row">
-                <div className="col-md-7 ms-3">
+                <div className="col-md-6 ms-3">
                     {/* Name */}
                     <h1 className="text-white pt-5 mt-5 mb-1">Imtious Islam Midul</h1>
                     {/* Title */}
@@ -28,9 +29,13 @@ const Description = () => {
                         organization’s success. I am passionately in love with frontend shizzle with pixel-perfect design and will be a world-class
                         developer by 2022.</small> <br />
                     {/* Resume Download Button */}
-                    <a href={Resume} target="_blank" className="hvr-grow" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
+                    <a href={Resume} target="_blank" className="hvr-grow" rel="noreferrer" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
-                <div className="col-md-5"></div>
+                <div className="col-md-1"></div>
+                {/* Right Side */}
+                <div className="col-md-4 mt-5">
+                    <img src={Image} className="Image" alt="" />
+                </div>
             </div>
         </section>
     );
