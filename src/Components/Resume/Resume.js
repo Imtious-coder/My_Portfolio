@@ -83,6 +83,7 @@ const Resume = () => {
                             </div>
                         </div>
                         {/* Skills */}
+
                         {/* Experience */}
                         <div data-aos="fade-right" className="text-center text-dark">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
@@ -93,6 +94,7 @@ const Resume = () => {
                             </div>
                         </div>
                         {/* Experience */}
+                        
                         {/* Hobbies */}
                         <div data-aos="fade-right" className="text-center text-dark mb-3">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>HOBBIES</b></h4>
@@ -117,7 +119,7 @@ const Resume = () => {
                     <section data-aos="fade-left" className="col-md-7 mt-5 text-dark">
                         {/* Description... */}
                         <div data-aos="zoom-in" className="text-justify">
-                            <p>A passionate curious Front-End Developer. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal the organization success. I am passionately in love with front-end shizzle with pixel perfect design and hungry to learn new things daily.</p>
+                            <p>A passionate Front-End Developer. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal of the organization’s success. I am passionately in love with front-end shizzle with pixel-perfect design and will be a world-class developer by 2022.</p>
                         </div>
                         <div>
                             <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————PROJECTS——————————</b></h4>
@@ -177,7 +179,7 @@ const Resume = () => {
                                 <p>Science - 4.44	</p>
                             </div>
                         </div>
-                        
+
                     </section>
                     {/* Right side */}
                 </div>
