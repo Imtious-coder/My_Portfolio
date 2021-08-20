@@ -12,7 +12,7 @@ const ProjectDetails = () => {
   const details = ProjectData.find((detail) => detail.name === projectName);
   const {
     name,
-    image,
+    fullImage,
     information,
     website,
     code,
@@ -58,7 +58,7 @@ const ProjectDetails = () => {
           </div>
           {/* Project Image */}
           <div className="col-md-6">
-            <img className="Project-Image" src={image} alt="" />
+            <img className="Project-Image" src={fullImage} alt="" />
           </div>
         </div>
       </div>
