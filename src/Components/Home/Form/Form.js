@@ -9,7 +9,7 @@ const Form = () => {
         AOS.init({ duration: 1000 })
     }, [])
     return (
-        <section data-aos="zoom-in">
+        <section data-aos="fade-right">
             <div className="container">
                 <div className="row mt-5 pt-5">
                     <div className="col-md-4"></div>

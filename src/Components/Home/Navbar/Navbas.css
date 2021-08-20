@@ -5,11 +5,12 @@
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
-    color: rgba(136, 255, 0, 0.788);
+    margin-left: 70px;
+    color: rgb(247, 255, 239);
     transition: all .5s ease-in-out;
 }
 .Name:hover{
-    color: rgb(255, 230, 0);
+    color: rgb(136, 255, 0);
 }
 .Nav{
     padding-bottom: 3px;
@@ -21,5 +22,12 @@
 }
 .active{
     color: rgba(128, 255, 0, 0.781)!important;
+}
+
+@media (max-width: 600px) {
+    .Name{
+        margin: 0px;
+    }
+    
 }
 

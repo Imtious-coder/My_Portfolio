@@ -22,5 +22,12 @@
 
 .Image{
     width: 100%;
-    opacity: .02;
+    opacity: .03;
+}
+
+@media (max-width: 770px) {
+    .Image{
+        display: none;
+    }
+    
 }

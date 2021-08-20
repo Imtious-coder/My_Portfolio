@@ -22,7 +22,7 @@ const AllProjects = () => {
         console.log(data);
     }, []);
     return (
-        <div style={{ backgroundColor: '#303133' }}>
+        <div  style={{ backgroundColor: "rgb(48, 49, 51)" }}>
             <section>
                 <div className="container pt-5">
                     <div className="row">
