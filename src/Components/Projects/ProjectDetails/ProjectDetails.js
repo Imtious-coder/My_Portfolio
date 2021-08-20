@@ -1,16 +1,30 @@
+import { useParams } from 'react-router';
 import { faCodeBranch, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './ProjectDetails.css';
-import Image from './comus.png';
 import ProjectData from '../../Home/Projects/ProjectData.json';
-import { useParams } from 'react-router';
 
 
 const ProjectDetails = () => {
+
   const { projectName } = useParams();
   const details = ProjectData.find((detail) => detail.name === projectName);
-  const { name, image, information, website, fullImage, code, li1, li2, li3, li4, li5, li6, li7 } = details;
+  const {
+    name,
+    image,
+    information,
+    website,
+    code,
+    li1,
+    li2,
+    li3,
+    li4,
+    li5,
+    li6,
+    li7
+  } = details;
+
   return (
     <section className="pt-5 pb-5 Project-Details">
       <div className="container">
@@ -28,11 +42,16 @@ const ProjectDetails = () => {
               <li> {li6} </li>
               <li> {li7} </li>
             </ul>
+            {/* Website and code */}
             <div className="d-flex">
-              <a href={website}>
+              <a href={website}
+                target="_blank"
+                rel="noreferrer">
                 <p className="Project-Icons"> <FontAwesomeIcon icon={faGlobeEurope} /> Website </p>
               </a>
-              <a href={code}>
+              <a href={code}
+                target="_blank"
+                rel="noreferrer">
                 <p className="Project-Icons" > <FontAwesomeIcon icon={faCodeBranch} /> Code </p>
               </a>
             </div>
