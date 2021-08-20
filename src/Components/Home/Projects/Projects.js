@@ -18,7 +18,7 @@ const Projects = () => {
     }, []);
 
     useEffect(() => {
-        setData(ProjectData)
+        setData(ProjectData.slice(0, 6))
         console.log(data);
     }, []);
 
