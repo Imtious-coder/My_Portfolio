@@ -68,18 +68,7 @@ const Resume = () => {
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-3 pb-1 text-dark shadow-lg"><b>SKILL</b></h4>
                             {/* Front end */}
                             <div className="mt-3 border shadow-sm">
-                                <b>Front-End: </b>
-                                <p><b>|</b> React.js  <b>|</b> JavaScript  <b>|</b> ES6+  <b>|</b> HTML5  <b>|</b> CSS3  <b>|</b> Bootstrap  <b>|</b> Tailwind  <b>|</b> Ant Design  <b>|</b> Material UI  <b>|</b></p>
-                            </div>
-                            {/* Back end */}
-                            <div className="mt-3 border shadow-sm">
-                                <b>Back-End: </b>
-                                <p><b>|</b> Node.js <b>|</b> Express.js  <b>|</b> MongoDB  <b>|</b> Heroku  <b>|</b> REST API <b>|</b> Firebase  <b>|</b> Netlify <b>|</b></p>
-                            </div>
-                            {/* Tools */}
-                            <div className="mt-3 border shadow-sm">
-                                <b>Tools: </b>
-                                <p><b>|</b> Git <b>|</b> Npm <b>|</b> Figma <b>|</b> VS Code <b>|</b> Chrome Dev Tools <b>|</b></p>
+                                <p><b> JavaScript   <b>|</b> ES6+  <b>|</b> React.js  <b>|</b> HTML5  <b>|</b> CSS3  <b>|</b> Bootstrap  <b>|</b> Tailwind  <b>|</b> Ant Design  <b>|</b> Material UI  <b>|</b> Netlify   <b>|</b> Git  <b>|</b> Npm </b> <b>|</b> Node.js <b>|</b> Express.js <b>|</b> Typescript <b>|</b> MongoDB  <b>|</b> Heroku  <b>|</b> REST API <b>|</b> Firebase  <b>|</b> Figma <b>|</b> Chrome Dev Tools <b>|</b> </p>
                             </div>
                         </div>
                         {/* Skills */}
@@ -87,14 +76,19 @@ const Resume = () => {
                         {/* Experience */}
                         <div data-aos="fade-right" className="text-center text-dark">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>EXPERIENCE</b></h4>
-                            <div className="border shadow-sm">
+                            <div className="border shadow-sm pt-2 mt-3">
+                                <b>Front-End Developer </b>
+                                <p className="m-0">DeshIT</p>
+                                <p>2<sup>nd</sup> May 2021 - 5<sup>th</sup> May</p>
+                            </div>
+                            <div className="border shadow-sm pt-2">
                                 <b>Software Engineer Intern </b>
                                 <p className="m-0">CircleDi</p>
-                                <p>20th may 2021 - Current</p>
+                                <p>20<sup>th</sup> May 2021 - Current</p>
                             </div>
                         </div>
                         {/* Experience */}
-                        
+
                         {/* Hobbies */}
                         <div data-aos="fade-right" className="text-center text-dark mb-3">
                             <h4 style={{ backgroundColor: "grey" }} className="text-center mt-4 pb-1 text-dark shadow-lg"><b>HOBBIES</b></h4>
@@ -119,7 +113,8 @@ const Resume = () => {
                     <section data-aos="fade-left" className="col-md-7 mt-5 text-dark">
                         {/* Description... */}
                         <div data-aos="zoom-in" className="text-justify">
-                            <p>A passionate Front-End Developer. Searching for a challenging role at a progressive organization that will help me to implement my skills and knowledge with the goal of the organization’s success. I am passionately in love with front-end shizzle with pixel-perfect design and will be a world-class developer by 2022.</p>
+                            <p>A passionate and curious Frontend Developer. Ready to start a challenging role at a progressive organization to implement my skills and knowledge with the goal of the organization’s success. Excellent time management skills with experience of 20+ projects, including e-commerce applications. I’ve got a good grasp of the latest technologies and tools.
+                            </p>
                         </div>
                         <div>
                             <h4 className="text-center mt-5 pb-1 text-dark"><b>———————————PROJECTS——————————</b></h4>
@@ -143,6 +138,7 @@ const Resume = () => {
                             <ul>
                                 <li>Responsive design.</li>
                                 <li>Smooth calculation.</li>
+                                <li>Clean code.</li>
                             </ul>
                             <p><b>Tech and Tools:</b> React.js, JavaScript (ES6+), HTML5, CSS3,  React Hooks, Material UI, <br /> React Router, CSS Grid, and Git
                             </p>

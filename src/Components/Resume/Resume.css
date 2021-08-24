@@ -6,11 +6,11 @@
 .Icon1{
     margin-top: -10px;
     margin-right: 10px;
-    color: rgb(62, 114, 255);
+    color: rgb(52, 96, 219);
     font-size: 22px;
 }
 .Icon1:hover{
-    color: rgb(0, 60, 255);
+    color: rgb(0, 51, 218);
 }
 .Icon2{
     margin-top: -10px;
@@ -24,9 +24,9 @@
 .Icon3{
     margin-top: -10px;
     margin-right: 10px;
-    color: rgb(49, 162, 255);
+    color: rgb(0, 69, 173);
     font-size: 22px;
 }
 .Icon3:hover{
-    color: rgb(21, 142, 255);
+    color: rgba(0, 21, 114, 0.986);
 }

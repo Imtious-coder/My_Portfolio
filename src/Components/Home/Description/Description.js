@@ -23,11 +23,8 @@ const Description = () => {
                     {/* Title */}
                     <h5 className="text-white mb-3">Front-End Developer</h5>
                     {/* Description */}
-                    <small className="text-secondary Description_Details">A passionate Front-End Developer. Searching for a challenging
-                        role at a progressive organization that will help me to
-                        implement my skills and knowledge with the goal of the
-                        organization’s success. I am passionately in love with frontend shizzle with pixel-perfect design and will be a world-class
-                        developer by 2022.</small> <br />
+                    <small className="text-secondary Description_Details">A passionate and curious Frontend Developer. Ready to start a challenging role at a progressive organization to implement my skills and knowledge with the goal of the organization’s success. Excellent time management skills with experience of 20+ projects, including e-commerce applications. I’ve got a good grasp of the latest technologies and tools.
+                    </small> <br />
                     {/* Resume Download Button */}
                     <a href={Resume} target="_blank" className="hvr-grow" rel="noreferrer" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
