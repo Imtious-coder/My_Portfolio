@@ -21,8 +21,10 @@
 }
 
 .Image{
+    height: 300px;
     width: 100%;
-    opacity: .03;
+    margin-top: 20px;
+    opacity: .8;
 }
 
 @media (max-width: 770px) {
