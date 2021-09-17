@@ -113,7 +113,10 @@ const Resume = () => {
                     <section data-aos="fade-left" className="col-md-7 mt-5 text-dark">
                         {/* Description... */}
                         <div data-aos="zoom-in" className="text-justify">
-                            <p>A passionate and curious Frontend Developer. Ready to start a challenging role at a progressive organization to implement my skills and knowledge with the goal of the organization’s success. Excellent time management skills with experience of 20+ projects, including e-commerce applications. I’ve got a good grasp of the latest technologies and tools.
+                            <p>2+ years of professional experience in Front-End Development.
+                                Looking for a challenging role at a progressive organization to grow
+                                my skills and knowledge with the goal of the organization’s success.
+                                Highly passionate and skilled in front-end development with pixelperfect design and the use of the latest technologies and tools.
                             </p>
                         </div>
                         <div>
