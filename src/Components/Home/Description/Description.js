@@ -6,7 +6,6 @@ import './Description.css';
 import '../../../../node_modules/hover.css/css/hover-min.css';
 import Resume from './RESUME.pdf';
 import Image from './images.jpg';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
