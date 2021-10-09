@@ -26,10 +26,7 @@ const About = () => {
                         <div>
                             <h1 className=" d-flex justify-content-center text-dark">—— About me ——</h1>
                             {/* Details */}
-                            <p className="text-dark mt-4 d-flex justify-content-center "> 2+ years of professional experience in Front-End Development.
-                                Looking for a challenging role at a progressive organization to grow
-                                my skills and knowledge with the goal of the organization’s success.
-                                Highly passionate and skilled in front-end development with pixelperfect design and the use of the latest technologies and tools.
+                            <p className="text-dark mt-4 d-flex justify-content-center ">2+ years of professional experience in Front-End Development. Highly skilled in front-end development with pixel-perfect design and the use of the latest technologies and tools. Self-motivated and willing to take challenges to improve my skills with the success of the organization. Experience in leadership and team management.
                             </p>
                             {/* Skills */}
                             <div className="row text-dark pt-3 d-flex justify-content-center">

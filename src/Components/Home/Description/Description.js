@@ -22,13 +22,10 @@ const Description = () => {
                     {/* Title */}
                     <h5 className="text-white mb-3"> JavaScript Developer (M E R N - S T A C K)</h5>
                     {/* Description */}
-                    <small className="text-secondary Description_Details">2+ years of professional experience in Front-End Development.
-                        Looking for a challenging role at a progressive organization to grow
-                        my skills and knowledge with the goal of the organization’s success.
-                        Highly passionate and skilled in front-end development with pixelperfect design and the use of the latest technologies and tools.
+                    <small className="text-secondary Description_Details">2+ years of professional experience in Front-End Development. Highly skilled in front-end development with pixel-perfect design and the use of the latest technologies and tools. Self-motivated and willing to take challenges to improve my skills with the success of the organization. Experience in leadership and team management.
                     </small> <br />
                     {/* Resume Download Button */}
-                    <a href={Resume} target="_blank" className="hvr-grow" rel="noreferrer" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
+                    <a href="https://drive.google.com/file/d/1Z3AaubCs_Lg6gStURI7jNX0H3G3gOhav/view?usp=sharing" target="_blank" className="hvr-grow" rel="noreferrer" download><button className="Button mt-3">Resume<FontAwesomeIcon className="Button-Icon ms-1" icon={faArrowAltCircleDown} /></button></a>
                 </div>
                 <div className="col-md-1"></div>
                 {/* Right Side */}
