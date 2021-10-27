@@ -1,5 +1,18 @@
 [
     {
+        "id": 0,
+        "name": "Steadfast",
+        "description": "Full Stack MERN Development",
+        "information": "This is a MERN Stack based agency website to manage their employee and recruiters.",
+        "website": "https://steadfast-ltd.netlify.app/",
+        "image": "https://i.ibb.co/mz4tByb/Image.png",
+        "fullImage": "https://i.ibb.co/86fJLJW/Image.png",
+        "code": "https://github.com/Imtious-coder/Steadfast",
+        "li1": " 1: Login as a Recruiter or Employee.",
+        "li2": " 2: Admin Dashboard for recruiter and employee.",
+        "li3": " 3: Admin Dashboard for recruiter and employee. Firebase Authentication. & Career Page, FAQ, Success Stories page."
+    },
+    {
         "id": 1,
         "name": "Calculator",
         "description": "Front-End Development",
@@ -85,7 +98,6 @@
         "li3": " 3: Match me with your job requirement's.",
         "li4": " 4: Score showed.",
         "li5": " 5: Clean & well commented code."
-        
     },
     {
         "id": 7,
@@ -118,7 +130,6 @@
         "li5": " 5: Admin/Teachers can add or remove a notice.",
         "li6": " 6: Admin/Teachers are able to update results.",
         "li7": " 7: Students can update their information's."
-        
     },
     {
         "id": 9,

@@ -1,33 +1,45 @@
 #Social{
-    font-size: 22px;
-    color: rgb(175, 175, 175);
-    font-family: 'Oswald', sans-serif;
-    border-bottom: 1px solid whitesmoke;
-  }
-  #Social-Icon1{
-    font-size: 28px;
-    color: rgba(255, 255, 255, 0.336);
-    margin-bottom: 10px;
-    margin-right: 10px;
-  }
-  #Social-Icon1:hover{
-    color: #2c54d4;
-    border-radius: 20px;
-    background-color: white;
-  }
-  #Social-Icon2{
-    font-size: 28px;
-    color: rgba(255, 255, 255, 0.425);
-    margin: 10px;
-  }
-  #Social-Icon2:hover{
-    color: white;
-  }
-  #Social-Icon3{
-    font-size: 28px;
-    color: rgba(255, 255, 255, 0.363);
-    margin: 10px;
-  }
-  #Social-Icon3:hover{
-    color: #0077B5;
-  }
+  font-size: 22px;
+  color: rgb(175, 175, 175);
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid whitesmoke;
+}
+
+#Social-Icon1{
+  font-size: 28px;
+  color: #2c54d4;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  transform: rotate(180deg);
+  transition: .3s all ease-in-out;
+}
+
+#Social-Icon1:hover{
+  transform: rotate(360deg);
+}
+
+#Social-Icon2{
+  font-size: 28px;
+  color: white;
+  margin: 10px;
+  transform: rotate(180deg);
+  transition: .3s all ease-in-out;
+}
+
+#Social-Icon2:hover{
+  transform: rotate(360deg);
+}
+ 
+#Social-Icon3{
+  font-size: 28px;
+  color: #0077B5;
+  margin: 10px;
+  transform: rotate(180deg);
+  transition: .3s all ease-in-out;
+}
+
+#Social-Icon3:hover{
+  transform: rotate(360deg);
+}
