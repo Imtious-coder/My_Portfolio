@@ -1,33 +1,112 @@
-.Name{
-    font-size: 28px;
-    font-weight: 500px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 5px;
-    font-weight: bold;
-    margin-left: 70px;
-    color: rgb(247, 255, 239);
-    transition: all .5s ease-in-out;
-}
-.Name:hover{
-    color: rgb(136, 255, 0);
-}
-.Nav{
-    padding-bottom: 3px;
-}
-.Nav:hover{
-    color: rgba(128, 255, 0, 0.842)!important;
-    text-shadow: 0 0 5px #ffee10;
-    border-bottom: 0.5px solid rgba(128, 255, 0, 0.842);
-}
-.active{
-    color: rgba(128, 255, 0, 0.781)!important;
+/* NAV */
+
+nav {
+  /* background: #0082e6; */
+  background: #ffffff;
+  height: 80px;
+  width: 100%;
+  display: flex;
 }
 
-@media (max-width: 600px) {
-    .Name{
-        margin: 0px;
-    }
-    
+nav ul {
+  /* float: right; */
+  margin-left: auto;
+  margin-right: 20px;
 }
 
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+  padding: 0 13px;
+  margin: 0 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ANCHOR TAGS */
+.active,
+.nav-links:hover {
+  color: #1b9bff;
+  transition: 0.5s;
+}
+
+/* LOGO */
+label.logo {
+  color: #1b9bff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+/* NAV CHECK BUTTON */
+.checkbtn {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+}
+
+#check {
+  display: none;
+  margin-left: auto;
+}
+
+/*------------ RESPONSIVNESS ---------------*/
+
+/* 800 PX */
+@media (max-width: 870px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 870px) {
+  .checkbtn {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #0080ff;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    left: -100%;
+    transition: all 0.5s;
+    margin-right: 0px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+  .nav-links:hover,
+  .active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+    width: 100%;
+  }
+}

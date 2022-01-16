@@ -1,18 +1,17 @@
-import React, { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
-
-import './Description.css';
-import '../../../../node_modules/hover.css/css/hover-min.css';
-import Resume from './RESUME.pdf';
-import Image from './images.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
+import '../../../../node_modules/hover.css/css/hover-min.css';
+import './Description.css';
+import Image from './images.jpg';
 
 const Description = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 })
     }, [])
+    
     return (
         <section className="container pb-5">
             <div data-aos="fade-up" className="row">

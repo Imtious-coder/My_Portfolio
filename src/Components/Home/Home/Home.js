@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
-        <div style={{ backgroundColor: '#303133' }}>
+        <div>
             <Description></Description>
             <div style={{ borderBottom: '1px solid grey', width: '86%' }} className="container mt-3 pt-3"></div>
             <Projects></Projects>

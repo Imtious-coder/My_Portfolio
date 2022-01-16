@@ -1,18 +1,15 @@
-import './App.css';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
-import Home from './Components/Home/Home/Home';
-import Brain from './Components/Brain/Brain';
-import Navbar from './Components/Home/Navbar/Navbar';
-import AllProjects from './Components/Projects/AllProjects/AllProjects';
+import './App.css';
+import About from './Components/About/About';
 import Footer from './Components/Home/Footer/Footer';
 import Form from './Components/Home/Form/Form';
-import About from './Components/About/About';
-import Resume from './Components/Resume/Resume';
+import Home from './Components/Home/Home/Home';
+import Navbar from './Components/Home/Navbar/Navbar';
+import AllProjects from './Components/Projects/AllProjects/AllProjects';
 import ProjectDetails from './Components/Projects/ProjectDetails/ProjectDetails';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -21,9 +18,6 @@ function App() {
       <Switch>
         <Route path="/home">
           <Home />
-        </Route>
-        <Route path="/brain">
-          <Brain />
         </Route>
         <Route path="/navbar">
           <Navbar />
