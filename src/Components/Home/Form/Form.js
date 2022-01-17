@@ -1,8 +1,7 @@
-import React from 'react';
-import './Form.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+import './Form.css';
 
 const Form = () => {
     useEffect(() => {
@@ -11,10 +10,10 @@ const Form = () => {
     return (
         <section data-aos="fade-right">
             <div className="container">
-                <div className="row mt-5 pt-5">
+                <div className="row mt-md-5">
                     <div className="col-md-4"></div>
                     {/* Title */}
-                    <div className="col-md-4 mt-5 text-white d-flex justify-content-center">
+                    <div className="col-md-4 mt-5 blue d-flex justify-content-center">
                         <h4>—— Sweet mail ——</h4>
                     </div>
                     <div className="col-md-4"></div>
@@ -22,17 +21,17 @@ const Form = () => {
             </div>
             {/* Inputs */}
             <div id="contact-us">
-                <section className=" container mt-5 pb-5">
+                <section className="container mt-5 pb-5">
                     <form action="https://formspree.io/f/mgeroyav" method="POST" className="row g-3 needs-validation" novalidate>
                         {/* Name */}
                         <div className="col-md-12 position-relative">
-                            <label for="validationTooltip01" className="form-label box-name">Name</label>
+                            <label for="validationTooltip01" className="form-label box-name"><span className='blue bold'>Name</span></label>
                             <input
-                                type="text" name="FirstName" className="form-control Inputs" id="validationTooltip01" placeholder="Arafat" required />
+                                type="text" name="FirstName" className="form-control Inputs blue" id="validationTooltip01" placeholder="Arafat" required />
                         </div>
                         {/* Email */}
                         <div className="col-md-12 position-relative">
-                            <label for="validationTooltipUsername" className="form-label box-name">Email</label>
+                            <label for="validationTooltipUsername" className="form-label box-name"><span className='blue bold'>Email</span></label>
                             <div className="input-group has-validation">
                                 <input
                                     type="text" name="Username" className="form-control Inputs" placeholder="example@gmail.com" id="validationTooltipUsername"
@@ -44,7 +43,7 @@ const Form = () => {
                         </div>
                         {/* City */}
                         <div className="col-md-6 position-relative">
-                            <label for="validationTooltip03" className="form-label box-name">City</label>
+                            <label for="validationTooltip03" className="form-label box-name"><span className='blue bold'>City</span></label>
                             <input
                                 type="text" name="City" className="form-control Inputs" id="validationTooltip03" placeholder="Kumilla" required />
                             <div className="invalid-tooltip">
@@ -53,7 +52,7 @@ const Form = () => {
                         </div>
                         {/* Phone number */}
                         <div className="col-md-6 position-relative">
-                            <label for="validationTooltip04" className="form-label box-name">Phone</label>
+                            <label for="validationTooltip04" className="form-label box-name"><span className='blue bold'>Phone</span></label>
                             <input
                                 type="text" name="phone" className="form-control Inputs" id="validationTooltip04" placeholder="+88016*******10" required />
                             <div className="invalid-tooltip">
@@ -62,7 +61,7 @@ const Form = () => {
                         </div>
                         {/* Text... */}
                         <div className="col-md-12 position-relative">
-                            <label for="validationTooltip05" className="form-label box-name">Message</label>
+                            <label for="validationTooltip05" className="form-label box-name"><span className='blue bold'>Message</span></label>
                             <input
                                 type="text" name="message" className="form-control Inputs pt-5 pb-5 text-center" placeholder="Type your message here..." id="validationTooltip05" required />
                         </div>

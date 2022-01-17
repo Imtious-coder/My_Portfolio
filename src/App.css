@@ -43,6 +43,10 @@ body {
   color: #1b9bff;
 }
 
+.bg-sweet {
+  background: rgb(255, 251, 231);
+}
+
 .bold {
   font-weight: bold;
 }

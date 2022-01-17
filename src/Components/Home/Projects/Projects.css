@@ -1,98 +1,151 @@
-.SeeMoreButton{
-    color: white;
-    text-align: center;
-    padding: 7px;
-    background-color: #303133;
-    border: 1px solid white;
-    width: 150px;
+.SeeMoreButton {
+  color: white;
+  text-align: center;
+  padding: 7px;
+  background-color: #303133;
+  border: 1px solid white;
+  width: 150px;
 }
-.SeeMoreButton:hover{
-    color: black;
-    background-color: whitesmoke;
-    transition: all 1s ease;
-}
-
-.Card{
-    position: relative;
-    width: 100%;
-    height: 200px;
-    border-left: 3px solid;
-    border-image: linear-gradient(rgb(255, 72, 0), rgb(255, 167, 116)) 0 100%;
-    overflow: hidden;
-}
-.Card:hover{
-    border-image: linear-gradient(green, greenyellow) 0 100%;
+.SeeMoreButton:hover {
+  color: black;
+  background-color: whitesmoke;
+  transition: all 1s ease;
 }
 
-.Card_Images{
-    width: 100%;
-    height: 100%;
+.Card {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-left: 3px solid;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  box-shadow: 2px 2px 5px rgb(139, 139, 139);
+}
+.Card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px rgb(111, 178, 255);
 }
 
-.Description{
-    top: 62%;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    color: white;
-    position: absolute;
-    transition: all .3s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.7);
+.Card:hover .Description {
+  top: 0;
+  opacity: 1;
 }
-.Description:hover{
-    top: 0;
-    opacity: 1;
+
+.Card_Images {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.Description {
+  top: 62%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 
 .Card_Title {
-    font-size: 24px;
-    color: rgb(187, 255, 0);
-    font-weight: bold;
-    margin: 0;
+  font-size: 24px;
+  color: rgb(0, 255, 255);
+  font-weight: bold;
+  margin: 0;
 }
 
 .Card_Description {
-    font-size: 14px;
-    margin-bottom: 10px;
-    color: rgb(201, 201, 201);
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgb(201, 201, 201);
 }
 
-.Card_Info{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
+.Card_Info {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
 }
 
-.Preview--Button{
-    border: none;
-    outline: none;
-    padding: 2px 10px;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgb(248, 248, 248);
-    border-radius: 50px;
-    border: 1.5px solid rgb(115, 255, 21);
-    background-color: rgba(0, 0, 0, 0);
-    transition: all .3s ease-in-out;
+.Preview--Button {
+  border: none;
+  outline: none;
+  padding: 2px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: transparent;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
 }
-.Preview--Button:hover{
-    background-color: rgb(115, 255, 21);
-    color: rgb(0, 0, 0);
-}
-.Details--Button{
-    border: none;
-    outline: none;
-    font-size: 14px;
-    margin-left: 40px;
-    padding: 2px 15px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, .1);
-    border: 1.5px solid rgb(115, 255, 21);
-    transition: all .3s ease-in-out;
 
+.Preview--Button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #1b9bff;
+  z-index: -1;
+  transition: all 0.5s;
 }
-.Details--Button:hover{
-    color: rgb(0, 0, 0);
-    background-color: rgb(115, 255, 21);
+
+.Preview--Button:hover::before {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Preview--Button:hover {
+  color: white;
+}
+
+.Preview--Button:active:before {
+  background: #1b9bff;
+}
+
+.Details--Button {
+  border: none;
+  outline: none;
+  margin-left: 40px;
+  padding: 2px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: transparent;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.Details--Button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #1b9bff;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.Details--Button:hover::before {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Details--Button:hover {
+  color: white;
+}
+
+.Details--Button:active:before {
+  background: #1b9bff;
 }

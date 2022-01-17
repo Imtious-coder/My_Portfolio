@@ -1,31 +1,31 @@
-.box-name{
-    color: rgba(233, 233, 233, 0.897);
+.box-name {
+  color: rgba(233, 233, 233, 0.897);
 }
-.Inputs{
-    background-color: #303133;
-    border: none;
-    border-radius: none;
-    border: 1px solid rgb(212, 212, 212);
-    color: white;
+.Inputs {
+  background-color: #eff4ff;
+  border: none;
+  border-radius: none;
+  border: 1px solid rgb(212, 212, 212);
+  color: white;
 }
-.form-inputs-style{
-    background-color: #3C3C3C;
-    border-bottom: 1px solid white;
+.form-inputs-style {
+  background-color: #3c3c3c;
+  border-bottom: 1px solid white;
 }
-.form-select{
-    color:rgb(134, 134, 134)!important;
+.form-select {
+  color: rgb(134, 134, 134) !important;
 }
-.form-button-color{
-    color: white;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid white;
-    width: 150px;
+.form-button-color {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid white;
+  width: 150px;
 }
-.form-button-color:hover{
-    color: white;
-    background-color: rgb(66, 66, 66);
+.form-button-color:hover {
+  color: white;
+  background-color: rgb(66, 66, 66);
 }
-.Options{
-    color:rgb(134, 134, 134);
+.Options {
+  color: rgb(134, 134, 134);
 }

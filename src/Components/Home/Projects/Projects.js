@@ -1,14 +1,13 @@
-import React, { useEffect } from 'react';
+import { faAngleRight, faEye } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import ProjectData from './ProjectData.json';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-
-import AOS from 'aos';
 import './Projects.css';
-import 'aos/dist/aos.css';
-import { useState } from 'react';
+
+
 
 const Projects = () => {
     const [data, setData] = useState([]);
@@ -24,21 +23,20 @@ const Projects = () => {
 
     return (
         <section className="container pb-5 pt-5">
-
-            <h4 data-aos="flip-left" className="text-white mt-5 mb-5 pb-5">Projects ——</h4>
+            <h4 data-aos="flip-left" className="my-md-4 pb-5 blue bold">PROJECTS ——</h4>
             <section>
                 <div className="container">
                     <div className="row">
                         {
                             data.map(project => {
                                 return (
-                                    <div data-aos="fade-right" className="col-md-4 mb-5">
+                                    <div data-aos="zoom-in" className="col-md-4 mb-5">
                                         <div className="Card">
                                             {/* Image */}
                                             <img className="Card_Images" src={project.image} alt="" />
                                             {/* Description overlay */}
                                             <div className="container Description">
-                                                <p className="mt-2 Card_Title">{project.name}</p>
+                                                <p className="mt-2 blue Card_Title">{project.name}</p>
                                                 <p className="Card_Description">{project.description}</p>
                                                 <p className="Card_Info">{project.information}</p>
                                                 {/* Buttons */}
@@ -68,7 +66,7 @@ const Projects = () => {
             </section>
 
             {/* See more button.. */}
-            <div className="container mt-5">
+            <div className="container mt-md-5">
                 <div className="row">
                     <div className="col-md-2 ms-auto d-flex justify-content-center">
                         <Link to="/allprojects"><button className="SeeMoreButton">See more</button></Link>

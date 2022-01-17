@@ -42,7 +42,8 @@ const Description = () => {
                     <small 
                         className="
                             text-secondary 
-                            Description_Details">
+                            Description_Details
+                            Font2">
                             2+ years of learning experience in Front-End Development. Highly interested in Python & Golang. Self-motivated and willing to take challenges to improve my skills with the success of the organization. Experience in leadership and team management.
                         {/* 2+ years of learning experience in Front-End Development. Highly skilled in front-end development with pixel-perfect design and the use of the latest technologies and tools. Self-motivated and willing to take challenges to improve my skills with the success of the organization. Experience in leadership and team management. */}
                     </small> <br />
